@@ -4,15 +4,93 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
- 
+
 /* your custom css */
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
 @media only screen and (min-width: 1024px) {
-}
+  h1 {
+    font-size: 2em;
+  }
 
+  .markdown > h2,
+  .markdown > h3 {
+    margin-bottom: calc(
+      var(--ifm-heading-vertical-rhythm-bottom) * var(--ifm-leading)
+    );
+  }
+  .markdown > h2 {
+    margin-top: calc(var(--ifm-h2-vertical-rhythm-top) * var(--ifm-leading));
+  }
+
+  :root {
+    --ifm-heading-color: inherit;
+    --ifm-heading-margin-top: 0;
+    --ifm-heading-margin-bottom: var(--ifm-spacing-vertical);
+    --ifm-heading-font-family: inherit;
+    --ifm-heading-font-weight: var(--ifm-font-weight-bold);
+    --ifm-heading-line-height: 1.25;
+    --ifm-h1-font-size: 2rem;
+    --ifm-h2-font-size: 1.5rem;
+    --ifm-h3-font-size: 1.25rem;
+    --ifm-h4-font-size: 1rem;
+    --ifm-h5-font-size: 0.875rem;
+    --ifm-h6-font-size: 0.85rem;
+  }
+
+  markdown {
+    --ifm-h1-line-height: 2;
+    --ifm-h2-line-height: 1.5;
+    --ifm-heading-line-height: 1;
+    --ifm-h1-vertical-rhythm-top: 4;
+    --ifm-h2-vertical-rhythm-top: 2.5;
+    --ifm-h3-vertical-rhythm-top: 2;
+    --ifm-heading-vertical-rhythm-top: 1.5;
+    --ifm-h1-vertical-rhythm-bottom: 1;
+    --ifm-heading-vertical-rhythm-bottom: 0.5;
+  }
+
+  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: inherit;
+    color: var(--ifm-heading-color);
+    font-weight: 600;
+    font-weight: var(--ifm-heading-font-weight);
+    line-height: 1.25;
+    line-height: var(--ifm-heading-line-height);
+    margin-bottom: 1rem;
+    margin-bottom: var(--ifm-heading-margin-bottom);
+    margin-top: 0;
+    margin-top: var(--ifm-heading-margin-top);
+  }
+  body {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+      Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica, Arial,
+      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  }
+
+  .navbar .navbar__brand > strong {
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+}
 @media only screen and (max-width: 1023px) {
 }
 
