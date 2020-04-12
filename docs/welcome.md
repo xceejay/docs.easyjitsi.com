@@ -18,10 +18,10 @@ The Easy Jitsi documentation is composed of a few major sections:
 - [Getting Started](http://localhost:3000/docs/gettingstarted): This section covers how quickly Jitsi Meet can be installed on a server.
 - [Installing & Setting Up](http://localhost:3000/docs/installingdep): This section contains the necessary dependencies and detailed configuration instructions to meet specifications for quick deployment.
 - [Customizing the Ui](http://localhost:3000/docs/jitsiui): Detailed configuration instructions on how the jitsi Web Interface can be configured.
-- [Jitsi & Docker](http://localhost:3000/docs/docker): This section contains the necessary tools to run a Jitsi Meet stack on Docker using Docker Compose.
-- [Integrating Jitsi with Your Application](http://localhost:3000/docs/iframe)
-- [Deployment](http://localhost:3000/docs/tips)
-- [Help](http://localhost:3000/docs/help)
+- [Jitsi & Docker](http://localhost:3000/docs/docker): This section contains the necessary instructions to run a Jitsi Meet stack on Docker using Docker Compose.
+- [Integrating Jitsi with Your Application](http://localhost:3000/docs/iframe): Useful information of how jitsi can be integrated in a web application.
+- [Deployment](http://localhost:3000/docs/tips): This secion provides tips on and best practices on how Jitsi can be deployed into production.
+- [Help](http://localhost:3000/docs/help): This section provides ways to gain help from us.
 
 ### Feedback
 
