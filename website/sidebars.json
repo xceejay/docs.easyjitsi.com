@@ -1,10 +1,14 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Welcome": ["welcome", "intro"],
+    "Introduction To Jitsi": ["introtojitsi", "architecture", "benchmarks"],
+    "Getting Started": ["gettingstarted", "installation"],
+    "Installing & Setting Up": ["installingdep", "settingup", "config"],
+    "Customizing the Ui": ["jitsiui"],
+    "Jitsi & Docker": ["docker"],
+    "Integrating Jitsi with Your Application": ["iframe"]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Deployment": ["tips", "extentions", "help"]
   }
 }
