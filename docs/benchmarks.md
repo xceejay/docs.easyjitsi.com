@@ -76,3 +76,11 @@ The next graphs zoom in on the intervals used to calculate the averages (during 
 [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval1.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/) [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval2.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
 [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval3.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
 [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval4.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/) [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval5.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
+
+## Jitsi vs Zoom
+
+Here is a video of a quick side-by-side comparison of Zoom vs WebRTC performance in an environment with simulated congestion
+
+<iframe width="800" height="500" src="http://www.youtube.com/embed/WFil-ZPE0-g" frameborder="0" allowfullscreen></iframe>
+
+Detailed results can be found [here](https://jitsi.org/news/a-simple-congestion-test-for-zoom/).
