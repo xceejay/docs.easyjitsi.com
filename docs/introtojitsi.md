@@ -17,4 +17,4 @@ Jitsi is a favorite videoconferencing solution for anyone with privacy concerns,
 - Jitsi is compatible with WebRTC, the open standard for Web communication.
 - Jitsi supports advanced video routing concepts such as simulcast, bandwidth estimations, scalable video coding and many others.
 - Ubuntu and Debian packages for easy installation.
-
+  wow
