@@ -31,7 +31,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: "easyjitsi",
-  organizationName: "ddctalent",
+  organizationName: "easyjitsi",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: "welcome", label: "Docs" },
-    { doc: "welcome", label: "API" },
+    { doc: "intro", label: "API" },
     { page: "help", label: "Help" },
     { blog: true, label: "Blog" },
   ],
