@@ -5,16 +5,19 @@ sidebar_label: Welcome to Easy Jitsi
 ---
 
 Welcome to the Easy Jitsi Documentation!
+Thank you for choosing Easy Jitsi as your WebRTC service providers!
+This guide will help you setup Jitsi Meet.
 
 ## Navigation
 
-You can find different topics in the table of contents. On desktop, you should see it in the left sidebar. On mobile, you should see it after pressing an icon with arrows in the top left corner.
+You can find different topics in the table of contents. On desktop, you should see it in the left sidebar. On mobile, you should see it after pressing an hamburger menu icon in the top left corner.
 
 ## About the Documentation
 
 The Easy Jitsi documentation is composed of a few major sections:
 
-- [Introduction To Jitsi Meet](http://localhost:3000/docs/welcome): This section covers a general overview of what Jitsi Meet is, an architecture overview and comparative benchmarks with similar applications.
+- [Introduction To Easy Jitsi](http://localhost:3000/docs/intro): Introducuction of Easy Jitsi and gives information about this website.
+- [Introduction To Jitsi Meet](http://localhost:3000/docs/introtojitsi): This section covers a general overview of what Jitsi Meet is, an architecture overview and comparative benchmarks with similar applications.
 - [Getting Started](http://localhost:3000/docs/gettingstarted): This section covers how quickly Jitsi Meet can be installed on a server.
 - [Installing & Setting Up](http://localhost:3000/docs/installingdep): This section contains the necessary dependencies and detailed configuration instructions to meet specifications for quick deployment.
 - [Customizing the Ui](http://localhost:3000/docs/jitsiui): Detailed configuration instructions on how the jitsi Web Interface can be configured.
