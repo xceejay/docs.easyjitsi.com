@@ -1,3 +1,4 @@
-# Easy Jitsi
+# Easy Jitsi Documentation
+
 
 In progress...
