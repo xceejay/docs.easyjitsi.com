@@ -73,6 +73,6 @@ More graphs for those that really want a deep look
 
 The next graphs zoom in on the intervals used to calculate the averages (during the periods where the number of endpoints/streams stays the same). We can see that the CPU usage stays very stable in these periods.
 
-[<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval1.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/) [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval2.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/) [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval3.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/) [<img
-
-src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval4.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/) [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval5.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
+[<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval1.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/) [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval2.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
+[<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval3.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
+[<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval4.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/) [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph-interval5.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
