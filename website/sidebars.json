@@ -1,0 +1,14 @@
+{
+  "docs": {
+    "Welcome": ["welcome", "intro"],
+    "Introduction To Jitsi": ["introtojitsi", "architecture", "benchmarks"],
+    "Getting Started": ["gettingstarted", "installation"],
+    "Installing & Setting Up": ["installingdep", "settingup", "config"],
+    "Customizing the Ui": ["jitsiui"],
+    "Jitsi & Docker": ["docker"],
+    "Integrating Jitsi with Your Application": ["iframe"]
+  },
+  "docs-other": {
+    "Deployment": ["tips", "extentions", "help"]
+  }
+}
