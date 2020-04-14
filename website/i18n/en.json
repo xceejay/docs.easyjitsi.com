@@ -17,25 +17,9 @@
         "title": "Configuration of Jitsi",
         "sidebar_label": "Configuration of Jitsi"
       },
-      "doc3": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
-      },
-      "doc4": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
-      },
-      "doc5": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
-      },
       "docker": {
         "title": "Jitsi Meets Docker",
         "sidebar_label": "Jitsi Meets Docker"
-      },
-      "exampledoc5": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
       },
       "extentions": {
         "title": "Extending Jitsi",

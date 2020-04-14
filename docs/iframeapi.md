@@ -1,5 +1,5 @@
 ---
-id:iframe
-title: Using the Jitsi Iframe Api
-sidebar_label: Using the Jitsi Iframe Api
+id:iframeapi
+title: Integration of Jitsi Iframe Api
+sidebar_label: Integration of Jitsi Iframe Api
 ---

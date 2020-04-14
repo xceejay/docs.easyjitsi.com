@@ -19,6 +19,8 @@ In this section [Easy Jitsi](easyjitsi.com) will guide you through the process o
 
 NB: **_Our example server will be using 2GB of RAM_**
 
+## Setting Up The Server
+
 On our local system, we login into our Ubuntu server
 
 ```bash
