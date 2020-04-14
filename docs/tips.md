@@ -1,7 +1,7 @@
 ---
-id: 
-title: Introduction
-sidebar_label: Introduction
+id:tips 
+title: Tips for Deployment
+sidebar_label: Tips for Deployment
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.

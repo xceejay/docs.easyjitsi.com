@@ -1,5 +1,7 @@
 ---
 id:settingup
-title: Configuration of Jitsi
-sidebar_label: Configuration of Jitsi
+title: Setting up Jitsi
+sidebar_label: Setting up Jitsi
 ---
+
+setting up

@@ -1,7 +1,7 @@
 ---
-id: 
-title: Introduction
-sidebar_label: Introduction
+id:extentions 
+title: Extending Jitsi
+sidebar_label: Extending Jitsi
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
