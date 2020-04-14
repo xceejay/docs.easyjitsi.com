@@ -1,18 +1,8 @@
 ---
 id:installation 
-title: Installation of Jitsi
-sidebar_label: Installation of Jitsi
 ---
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163579416-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-163579416-2');
-</script>
 
 This section covers the Installation of Jitsi.
 
@@ -66,13 +56,10 @@ apt install -y jitsi-meet
 
 During the installation, when we are asked to provide the hostname of the current installation, we type in the FQDN `jitsimeet.easyjitsi.com` and hit `Enter`
 
-Having Jitsi Meet successfully installed, we run following script to apply for a Let's Encrypt SSL certificate:
 
 ```bash
-/usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 ```
 
-During the process, when we are asked for out email, we type in our email `easyjitsi@protonmail.com` then hit `Enter` . This script will automatically handle any tasks related to the Let's Encrypt SSL certificate.
 
 Finally, once we are successful in our installation process, we can check if our Jitsi Meet site is up by heading to our local system and typing in our FQDN `jitsimeet.easyjitsi.com`
 

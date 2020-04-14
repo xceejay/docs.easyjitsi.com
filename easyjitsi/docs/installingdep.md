@@ -1,18 +1,8 @@
 ---
 id:installingdep 
-title: Installing Necessary Dependencies
-sidebar_label: Installing Necessary Dependencies
 ---
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163579416-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-163579416-2');
-</script>
 
 **NB:We need a separate server with the FQDN recorder.easyjitsi.com in order to record conferences**
 

@@ -1,18 +1,8 @@
 ---
 id:config 
-title: Configuration of Jitsi
-sidebar_label: Configuration of Jitsi
 ---
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163579416-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-163579416-2');
-</script>
 
 We also need to configure Jitsi in order for it to find & allow Jibri to record conferences
 

@@ -1,22 +1,11 @@
 ---
 id:architecture 
-title: Architecture of Jitsi
-sidebar_label: Architecture of Jitsi
 ---
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163579416-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-163579416-2');
-</script>
 
 The overall Jitsi architecture has a great level of complexity and abstract. We can simply it with first step of splitting the functions of the central jitsi-meet instance (with nginx, prosody and jicofo) and videobridges.
 
-Short Descriptions on Parts of the Jitsi Architecture
 
 - Nginx: This is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.
 - Jitsi Meet: This is a is stand alone application of the Jitsi Architecture which handles secure, simple and scalable Video Conferences for the end user.

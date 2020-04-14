@@ -1,18 +1,8 @@
 ---
 id:gettingstartedjibri
-title: Getting Started With Jibri
-sidebar_label: Getting Started With Jibri
 ---
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163579416-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-163579416-2');
-</script>
 
 In order to record conferences the following are required;
 

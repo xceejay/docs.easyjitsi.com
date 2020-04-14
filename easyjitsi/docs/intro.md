@@ -1,18 +1,8 @@
 ---
 id:intro 
-title: Introduction to Easy Jitsi
-sidebar_label: Introduction to Easy Jitsi
 ---
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163579416-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-163579416-2');
-</script>
 
 ## What is Easy Jitsi
 
