@@ -4,6 +4,16 @@ title: Introduction to Easy Jitsi
 sidebar_label: Introduction to Easy Jitsi
 ---
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163579416-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163579416-2');
+</script>
+
 ## What is Easy Jitsi
 
 Easy Jitsi is a WebRTC video conference service provider that is owned by DDC Talent Inc. Easy Jitsi leads in offering a wide variety of services related to real time communication and related technologies. Companies from small to large scale all over the world have used Easy Jitsi services to make custom communication platforms, consultation from experts and support for existing platforms. Easy Jitsi incorporates the use of the Jitsi Meet technology to provides the following services:

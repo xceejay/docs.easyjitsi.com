@@ -4,6 +4,16 @@ title: Introduction to Jitsi
 sidebar_label: Introduction to Jitsi
 ---
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163579416-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163579416-2');
+</script>
+
 ## What is Jitsi?
 
 Jitsi is a set of open-source projects that allows you to easily build and deploy secure videoconferencing solutions. At the heart of Jitsi are Jitsi Videobridge and Jitsi Meet, which let you have conferences on the internet, while other projects in the community enable other features such as audio, dial-in, recording, and simulcasting.
@@ -17,4 +27,3 @@ Jitsi is a favorite videoconferencing solution for anyone with privacy concerns,
 - Jitsi is compatible with WebRTC, the open standard for Web communication.
 - Jitsi supports advanced video routing concepts such as simulcast, bandwidth estimations, scalable video coding and many others.
 - Ubuntu and Debian packages for easy installation.
-

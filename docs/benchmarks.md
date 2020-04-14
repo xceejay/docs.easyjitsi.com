@@ -4,6 +4,16 @@ title: Benchmarks
 sidebar_label: Benchmarks 
 ---
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163579416-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163579416-2');
+</script>
+
 [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-essentials.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
 On a plain Xeon server for about 20% CPU Jitsi will be able to run 1000+ video streams using an average of 550 Mbps! Check the graph below!
 

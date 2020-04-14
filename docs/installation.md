@@ -4,6 +4,16 @@ title: Installation of Jitsi
 sidebar_label: Installation of Jitsi
 ---
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163579416-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163579416-2');
+</script>
+
 This section covers the Installation of Jitsi.
 
 We then install the Java Runtime Environment since Jitsi Meet requires it to run.
