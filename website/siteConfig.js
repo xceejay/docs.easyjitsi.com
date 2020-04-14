@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: "Easy Jitsi Docs", // Title for your website.
+  title: "Easy Jitsi Documentation", // Title for your website.
   tagline: "Setup Your Own Jisti Server",
   url: "docs.easyjitsi.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
