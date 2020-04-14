@@ -48,8 +48,8 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Main Website",
+              href: "https://easyjitsi.com",
             },
             {
               label: "Telegram",
@@ -84,8 +84,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/easyjitsi/docs.easyjitsi.com",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -93,4 +92,15 @@ module.exports = {
       },
     ],
   ],
+};
+
+module.exports = {
+  plugins: ["@docusaurus/plugin-google-analytics"],
+  themeConfig: {
+    googleAnalytics: {
+      trackingID: "UA-163579416-2",
+      // Optional fields.
+      anonymizeIP: false, // Should IPs be anonymized?
+    },
+  },
 };
