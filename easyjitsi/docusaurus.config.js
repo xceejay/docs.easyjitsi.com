@@ -39,8 +39,8 @@ module.exports = {
               to: "https://easyjitsi.com",
             },
             {
-              label: "Second Doc",
-              to: "docs/intro",
+              label: "Help",
+              to: "docs/help",
             },
           ],
         },
