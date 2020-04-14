@@ -17,3 +17,11 @@ Having OpenJDK JRE 8 installed, use the following command to verify its installe
 ```bash
 java -version
 ```
+
+The output should be the following
+
+```bash
+openjdk version "1.8.0_171"
+OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-0ubuntu0.18.04.1-b11)
+OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)
+```
