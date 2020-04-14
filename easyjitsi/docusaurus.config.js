@@ -7,9 +7,6 @@ module.exports = {
   organizationName: "easyjitsi", // Usually your GitHub org/user name.
   projectName: "easyjitsi", // Usually your repo name.
   themeConfig: {
-    trackingID: "UA-163579416-2",
-    anonymizeIP: false, // Should IPs be anonymized?
-
     navbar: {
       title: "Easy Jitsi Documentation",
       logo: {
@@ -93,6 +90,8 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        trackingID: "UA-163579416-2",
+        anonymizeIP: false, // Should IPs be anonymized?
       },
     ],
   ],
