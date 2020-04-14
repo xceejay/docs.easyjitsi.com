@@ -1,6 +1,6 @@
 ---
 id: gettingstarted
-title: Getting Started With Jitsi Meet
+title: Getting Started
 ---
 
 In this section [Easy Jitsi](easyjitsi.com) will guide you through the process of setting up an Ubuntu 18.04 LTS server for Jitsi Meet.
