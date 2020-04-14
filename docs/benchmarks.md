@@ -4,6 +4,9 @@ title: Benchmarks
 sidebar_label: Benchmarks 
 ---
 
+[<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-essentials.png">](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
+On a plain Xeon server for about 20% CPU Jitsi will be able to run 1000+ video streams using an average of 550 Mbps! Check the graph below!
+
 ## Performance Evaluation 1
 
 Before we get to a full description of the performance testing of Jitsi Video bridge, let’s first see a representative summary of all results:
@@ -79,7 +82,7 @@ The next graphs zoom in on the intervals used to calculate the averages (during 
 
 ## Jitsi vs Zoom
 
-Here was a video of a quick side-by-side comparison of Zoom(WebRTC) vs Jitsi performance in an environment with simulated congestion
+Here was a video of a quick side-by-side comparison of Zoom vs Jitsi(WebRTC) performance in an environment with simulated congestion
 
 <iframe width="800" height="500" src="http://www.youtube.com/embed/WFil-ZPE0-g" frameborder="0" allowfullscreen></iframe>
 
