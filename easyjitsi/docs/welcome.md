@@ -1,6 +1,6 @@
 ---
-id:  welcome
-title: Welcome To Easy Jitsi
+id: welcome
+title: Preface
 ---
 
 Welcome to the Easy Jitsi Documentation!
