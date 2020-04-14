@@ -1,7 +1,7 @@
 module.exports = {
   title: "Easy Jitsi Documentation",
   tagline: "Easy Jitsi Documentation",
-  url: "docs.easyjitsi.com",
+  url: "https://docs.easyjitsi.com",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "easyjitsi", // Usually your GitHub org/user name.
