@@ -10,7 +10,7 @@ module.exports = {
     navbar: {
       title: "Easy Jitsi Documentation",
       logo: {
-        alt: " Site Logo",
+        alt: "Easy Jitsi",
         src: "img/logo.svg",
       },
       links: [
@@ -35,8 +35,8 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Style Guide",
-              to: "docs/welcome",
+              label: "Home Page",
+              to: "https://easyjitsi.com",
             },
             {
               label: "Second Doc",
@@ -78,6 +78,14 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()}  Easy Jitsi`,
     },
   },
+  plugins: ["@docusaurus/plugin-google-analytics"],
+  themeConfig: {
+    googleAnalytics: {
+      trackingID: "UA-163579416-2",
+      anonymizeIP: false, // Should IPs be anonymized?
+    },
+  },
+
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -94,13 +102,5 @@ module.exports = {
   ],
 };
 
-module.exports = {
-  plugins: ["@docusaurus/plugin-google-analytics"],
-  themeConfig: {
-    googleAnalytics: {
-      trackingID: "UA-163579416-2",
-      // Optional fields.
-      anonymizeIP: false, // Should IPs be anonymized?
-    },
-  },
-};
+// module.exports = {
+//};
