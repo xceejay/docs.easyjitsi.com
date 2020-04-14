@@ -66,7 +66,7 @@ While the memory consumption wasn't specifically shown during these tests, it wa
 
 These results show that Jitsi Videobridge was able to handle a substantial bitrate with relatively low usage of resources, and that it scales extremely well with the bitrate/number of streams.
 
-More graphs for those that really want a deep look
+More graphs for those that really want a deep look.
 
 [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph3-gradual.png"></img>](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
 
