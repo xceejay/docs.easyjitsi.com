@@ -1,6 +1,6 @@
 ---
-id: config
-title: Configuration of Jitsi For Recording
+id: jibri
+title: Configuration of Jibri For Recording
 ---
 
 We also need to configure Jitsi in order for it to find & allow Jibri to record conferences

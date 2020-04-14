@@ -7,8 +7,6 @@ We need to configure Jitsi in order for it to find & allow Jibri to record confe
 
 We do the following:
 
-### Edit The Jibri Config File
-
 NB: **_We edit the file with our favourite editor, in this tutorial we use Vim_**
 
 ### Configure Prosody To Register Jibri Users
