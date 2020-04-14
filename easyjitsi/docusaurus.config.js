@@ -22,7 +22,7 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/easyjitsi/easyjitsi",
+          href: "https://github.com/easyjitsi/docs.easyjitsi.com",
           label: "GitHub",
           position: "right",
         },
@@ -52,7 +52,7 @@ module.exports = {
               href: "https://stackoverflow.com/questions/tagged/docusaurus",
             },
             {
-              label: "Discord",
+              label: "Telegram",
               href: "https://discordapp.com/invite/docusaurus",
             },
           ],
