@@ -13,5 +13,5 @@ The overall Jitsi architecture has a great level of complexity and abstract. We 
 
 The following diagram describes how the parts of the Jitsi Architecture interact with each other:
 
-<img src="/static/img/networkdesc.png"></img>
+<img src="/img/networkdesc.png"></img>
 
