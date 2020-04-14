@@ -29,6 +29,10 @@
         "title": "Getting Started",
         "sidebar_label": "Getting Started"
       },
+      "gettingstartedjibri": {
+        "title": "Jitsi Meets Docker",
+        "sidebar_label": "Jitsi Meets Docker"
+      },
       "iframeapi": {
         "title": "Integration of Jitsi Iframe Api",
         "sidebar_label": "Integration of Jitsi Iframe Api"
