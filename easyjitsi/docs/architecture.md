@@ -11,4 +11,7 @@ The overall Jitsi architecture has a great level of complexity and abstract. We 
 - Jicofo: Jicofo is a server side signalling [focus](https://xmpp.org/extensions/xep-0340.html) component used in Jitsi Meet Conferences. It is responsible for managing media sessions between each of the participants and the videobridge.
 - Jitsi-Videobridge: This is a [multiuser](https://xmpp.org/extensions/xep-0045.html) video [XMPP](https://en.wikipedia.org/wiki/XMPP) server component.It is also a WebRTC compatible video router or SFU that lets build highly scalable video conferencing infrastructure (i.e., up to hundreds of conferences per server).
 
-## TO DO - WAITING FOR IMAGES
+The following diagram describes how the parts of the Jitsi Architecture interact with each other:
+
+<img src="networkdesc.png"></img>
+
