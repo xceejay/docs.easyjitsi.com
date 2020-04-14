@@ -11,7 +11,7 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: "User1",
+    caption: "xceejay",
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
     image: "/img/undraw_open_source.svg",
@@ -23,11 +23,10 @@ const users = [
 const siteConfig = {
   title: "Easy Jitsi Docs", // Title for your website.
   tagline: "Setup Your Own Jisti Server",
-  url: "https://your-docusaurus-test-site.com", // Your website URL
+  url: "docs.easyjitsi.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   url: "docs.easyjitsi.com",
-  //   baseUrl: '/test-site/',
 
   // Used for publishing and more
   projectName: "easyjitsi",
@@ -54,7 +53,7 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: "#877da1",
+    primaryColor: "##3876B7",
     secondaryColor: "#5e5770",
   },
 
