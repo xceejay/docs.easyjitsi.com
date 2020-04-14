@@ -7,6 +7,9 @@ module.exports = {
   organizationName: "easyjitsi", // Usually your GitHub org/user name.
   projectName: "easyjitsi", // Usually your repo name.
   themeConfig: {
+    trackingID: "UA-163579416-2",
+    anonymizeIP: false, // Should IPs be anonymized?
+
     navbar: {
       title: "Easy Jitsi Documentation",
       logo: {
@@ -76,13 +79,6 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()}  Easy Jitsi`,
-    },
-  },
-  plugins: ["@docusaurus/plugin-google-analytics"],
-  themeConfig: {
-    googleAnalytics: {
-      trackingID: "UA-163579416-2",
-      anonymizeIP: false, // Should IPs be anonymized?
     },
   },
 
