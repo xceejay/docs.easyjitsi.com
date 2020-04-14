@@ -30,7 +30,8 @@
         "sidebar_label": "Getting Started"
       },
       "iframeapi": {
-        "title": "iframeapi"
+        "title": "Integration of Jitsi Iframe Api",
+        "sidebar_label": "Integration of Jitsi Iframe Api"
       },
       "installation": {
         "title": "Installation of Jitsi",

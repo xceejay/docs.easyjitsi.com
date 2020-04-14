@@ -15,7 +15,7 @@ const users = [
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
     image: "/img/undraw_open_source.svg",
-    infoLink: "https://www.facebook.com",
+    infoLink: "https://easyjitsi.com",
     pinned: true,
   },
 ];
@@ -54,7 +54,7 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: "#3876B7",
-    secondaryColor: "#5e5770",
+    secondaryColor: "#20232A",
   },
 
   /* Custom fonts for website */
@@ -103,7 +103,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: "https://github/easyjitsi/easyjitsi",
 };
 
 module.exports = siteConfig;
