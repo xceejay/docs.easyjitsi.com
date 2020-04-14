@@ -82,6 +82,6 @@ The next graphs zoom in on the intervals used to calculate the averages (during 
 
 Here was a video of a quick side-by-side comparison of Zoom vs Jitsi(WebRTC) performance in an environment with simulated congestion
 
-<iframe width="810" height="490" src="https://www.youtube.com/embed/WFil-ZPE0-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/WFil-ZPE0-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Detailed results can be found [here](https://jitsi.org/news/a-simple-congestion-test-for-zoom/).
