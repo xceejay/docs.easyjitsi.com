@@ -19,7 +19,7 @@ During the tests the following variables once per second where measured:
 - Cpu_usage: The load of the CPU (all cores) during the last interval. This is the fraction of time spent by the CPU in one of the following states: User, System, Nice, IOWait (this is what is shown on the “%Cpu(s)” line in top(1))
 - Network_in: The receiving bitrate, measured by ifstat on (independent) 2-second intervals
 - Network_out: The sending bitrate
-  The following variables are extracted from the above:
+The following variables are extracted from the above:
 
 Bitrate: The sum of network_in and network_out, converted to Mbps (10^6 bits per second).
 Streams: The total number of audio/video stream couples being sent by Jitsi Videobridge. This depends on conferences, endpoints and other considerations (whether there are endpoints which do not send data).
