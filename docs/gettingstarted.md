@@ -19,6 +19,8 @@ In this section [Easy Jitsi](easyjitsi.com) will guide you through the process o
 
 NB: **_Our example server will be using 2GB of RAM_**
 
+## Setting Up The Server
+
 On our local system, we login into our Ubuntu server
 
 ```bash
@@ -34,7 +36,7 @@ dd if=/dev/zero of=/swapfile count=2048 bs=1M
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
-echo '/swapfile   none    swap    sw    0   0' |  tee -a /etc/fstab
+echo '/swapfile noneswapsw0 0' |tee -a /etc/fstab
 free -m
 ```
 
@@ -66,12 +68,12 @@ We do that by running the following commands:
  ufw enable
 ```
 
-We then Reboot our server
+We Update and updgrade our packages and Reboot our server
 
 NB: **_This will log us out of the Ubuntu server: We wait for a few seconds and login into the server again._**
 
 ```bash
 apt update
-apt upgrade -y &&  shutdown -r now
+apt upgrade -y &&shutdown -r now
 ```
 

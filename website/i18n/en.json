@@ -14,42 +14,24 @@
         "sidebar_label": "Benchmarks"
       },
       "config": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
-      },
-      "doc3": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
-      },
-      "doc4": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
-      },
-      "doc5": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
+        "title": "Configuration of Jitsi",
+        "sidebar_label": "Configuration of Jitsi"
       },
       "docker": {
-        "title": "docker"
+        "title": "Jitsi Meets Docker",
+        "sidebar_label": "Jitsi Meets Docker"
       },
-      "exampledoc5": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
-      },
-      "extensions": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
+      "extentions": {
+        "title": "Extending Jitsi",
+        "sidebar_label": "Extending Jitsi"
       },
       "gettingstarted": {
         "title": "Getting Started",
         "sidebar_label": "Getting Started"
       },
-      "help": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
-      },
       "iframeapi": {
-        "title": "iframeapi"
+        "title": "Integration of Jitsi Iframe Api",
+        "sidebar_label": "Integration of Jitsi Iframe Api"
       },
       "installation": {
         "title": "Installation of Jitsi",
@@ -72,18 +54,20 @@
         "sidebar_label": "Introduction"
       },
       "jitsiui": {
-        "title": "jitsiui"
+        "title": "Customizing the UI of Jitsi Meet",
+        "sidebar_label": "Customizing the UI of Jitsi Meet"
       },
       "recording": {
         "title": "Introduction",
         "sidebar_label": "Introduction"
       },
       "settingup": {
-        "title": "settingup"
+        "title": "Setting up Jitsi",
+        "sidebar_label": "Setting up Jitsi"
       },
       "tips": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
+        "title": "Tips for Deployment",
+        "sidebar_label": "Tips for Deployment"
       },
       "welcome": {
         "title": "Welcome to Easy Jitsi",
@@ -92,7 +76,6 @@
     },
     "links": {
       "Docs": "Docs",
-      "API": "API",
       "Help": "Help",
       "Blog": "Blog"
     },
