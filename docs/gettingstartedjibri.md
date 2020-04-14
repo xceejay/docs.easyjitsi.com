@@ -1,5 +1,5 @@
 ---
-id:docker
+id:gettingstartedjibri
 title: Jitsi Meets Docker 
 sidebar_label: Jitsi Meets Docker
 ---
