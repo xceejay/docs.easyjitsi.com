@@ -3,7 +3,7 @@
     "Welcome": ["welcome", "intro"],
     "Introduction To Jitsi": ["introtojitsi", "architecture", "benchmarks"],
     "Getting Started": ["gettingstarted", "installation"],
-    "Installing & Setting Up": ["installingdep", "settingup", "config"],
+    "Recording with Jibri": ["installingdep", "config", "jibri"],
     "Customizing the Ui": ["jitsiui"],
     "Jitsi & Docker": ["docker"],
     "Integrating Jitsi with Your Application": ["iframeapi"],

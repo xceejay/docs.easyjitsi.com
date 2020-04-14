@@ -49,21 +49,13 @@
         "title": "Introduction to Jitsi",
         "sidebar_label": "Introduction to Jitsi"
       },
-      "jitsiexample": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
+      "jibri": {
+        "title": "Setting up Jibri",
+        "sidebar_label": "Setting up Jibri"
       },
       "jitsiui": {
         "title": "Customizing the UI of Jitsi Meet",
         "sidebar_label": "Customizing the UI of Jitsi Meet"
-      },
-      "recording": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
-      },
-      "settingup": {
-        "title": "Setting up Jitsi",
-        "sidebar_label": "Setting up Jitsi"
       },
       "tips": {
         "title": "Tips for Deployment",
@@ -83,7 +75,7 @@
       "Welcome": "Welcome",
       "Introduction To Jitsi": "Introduction To Jitsi",
       "Getting Started": "Getting Started",
-      "Installing & Setting Up": "Installing & Setting Up",
+      "Recording with Jibri": "Recording with Jibri",
       "Customizing the Ui": "Customizing the Ui",
       "Jitsi & Docker": "Jitsi & Docker",
       "Integrating Jitsi with Your Application": "Integrating Jitsi with Your Application",
