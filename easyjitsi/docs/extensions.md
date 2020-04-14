@@ -1,5 +1,5 @@
 ---
-id:extensions
+id: extensions
+title: Extending Jitsi
 ---
-
 

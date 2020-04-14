@@ -1,8 +1,7 @@
 ---
-id:intro 
+id: intro
+title: Introduction To Easy Jitsi
 ---
-
-
 
 ## What is Easy Jitsi
 

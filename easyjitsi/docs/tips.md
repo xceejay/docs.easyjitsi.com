@@ -1,4 +1,4 @@
 ---
-id:tips 
+id: tips
+title: Tips For Deploying Jitsi
 ---
-

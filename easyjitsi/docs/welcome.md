@@ -1,8 +1,7 @@
 ---
-id:welcome 
+id:  welcome
+title: Welcome To Easy Jitsi
 ---
-
-
 
 Welcome to the Easy Jitsi Documentation!
 Thank you for choosing Easy Jitsi as your WebRTC service providers!

@@ -1,8 +1,7 @@
 ---
-id:installation 
+id: installation
+title: Installation of Jitsi Meet
 ---
-
-
 
 This section covers the Installation of Jitsi.
 
@@ -56,10 +55,9 @@ apt install -y jitsi-meet
 
 During the installation, when we are asked to provide the hostname of the current installation, we type in the FQDN `jitsimeet.easyjitsi.com` and hit `Enter`
 
-
 ```bash
-```
 
+```
 
 Finally, once we are successful in our installation process, we can check if our Jitsi Meet site is up by heading to our local system and typing in our FQDN `jitsimeet.easyjitsi.com`
 

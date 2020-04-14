@@ -1,8 +1,7 @@
 ---
-id:installingdep 
+id: installingdep
+title: Installing Necessary Dependencies
 ---
-
-
 
 **NB:We need a separate server with the FQDN recorder.easyjitsi.com in order to record conferences**
 

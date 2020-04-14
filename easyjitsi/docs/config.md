@@ -1,8 +1,7 @@
 ---
-id:config 
+id: config
+title: Configuration of Jitsi For Recording
 ---
-
-
 
 We also need to configure Jitsi in order for it to find & allow Jibri to record conferences
 
@@ -12,31 +11,7 @@ We do the following:
 
 NB: **_We edit the file with our favourite editor, in this tutorial we use Vim_**
 
-```bash
-vim /etc/jitsi/jibri/config.json
-```
-
-Once we open the file we see the following:
-
-- xmpp_server_hosts:The domain where stats and logs are stored etc. Eg. jitsi.ddctalent.com
-- xmpp_domain=The domain of the Xmpp server(Prosody) being connecting to. Eg. jitsi.ddctalent.com
-- control_login=Specifies credentials and authorization details Jibri will use to log into the Xmpp Server(Prosody)
-
-  - domain=The domain used for logging in.
-  - username=Username used for logging in.
-  - password=Password used for logging in.
-
-- control_muc:Specifies the details about the Control Muc being joined on the Xmpp server as a means of annoucing its availability so it can record.
-  - domain=The Control Muc domain.
-  - room_name=The Name of the Muc room.
-  - nickname=Nick name for identification in the Muc Room
-- call_login=This is displayed to other users as a normal participant of a conference
-  - domain=the domain of the jibri server
-  - username=username displayed to the users
-  - password=password for authorization
-  - room_jid_domain_string_to_strip_from_start:prefix of the url which should be stripped to form a call url correctly. Eg. conference.
-
-### Configure Prosody To Register Jibri Users
+## Configure Prosody To Register Jibri Users
 
 ```bash
    vim /etc/prosody/prosody.cfg.lua
@@ -57,6 +32,41 @@ We then insert the following into the file we just opened
       "ping";
     }
     authentication = "internal_plain"
+```
+
+```bash
+## Replace The these below with your call_login and control_login credentials
+
+prosodyctl register jibri auth.yourdomain.com jibriauthpass
+prosodyctl register recorder recorder.yourdomain.com jibrirecorderpass
+```
+
+11. Set The Appropriate Muc To Look For Available Jibri Recorders
+
+```bash
+## Edit This File
+/etc/jitsi/jicofo/sip-communicator.properties
+
+## Paste This Within That File
+org.jitsi.jicofo.jibri.BREWERY=JibriBrewery@internal.auth.yourdomain.com
+org.jitsi.jicofo.jibri.PENDING_TIMEOUT=90
+
+```
+
+Configure Jitsi So it Shows Record Buttons
+
+```bash
+
+## Edit This file
+
+/etc/jitsi/meet/yourdomain-config.js ## replace yourdomain with your jitsi domain
+
+## Look for these Parameters and set them to be true
+
+fileRecordingsEnabled: true, ##If you want to enable file recording
+liveStreamingEnabled: true, ## If you want to enable live streaming
+hiddenDomain: 'recorder.yourdomain.com', ## hiddendomain used to connect
+
 ```
 
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**

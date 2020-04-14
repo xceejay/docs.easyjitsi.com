@@ -1,5 +1,6 @@
 ---
-id:benchmarks
+id: benchmarks
+title: Jitsi Benchmarks
 ---
 
 [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-essentials.png"></img>](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
