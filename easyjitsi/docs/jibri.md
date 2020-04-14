@@ -3,6 +3,8 @@ id: jibri
 title: Configuration of Jibri For Recording
 ---
 
+NB: **This section assumes we have logged into our ssh server with the FQDN recorder.easyjitsi.com**
+
 We also need to configure Jitsi in order for it to find & allow Jibri to record conferences
 
 We do the following:
