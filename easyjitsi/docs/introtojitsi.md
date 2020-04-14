@@ -1,6 +1,6 @@
 ---
 id: introtojitsi
-title: Introduction To Jitsi
+title: Understanding Jitsi
 ---
 
 ## What is Jitsi?

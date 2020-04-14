@@ -1,6 +1,6 @@
 ---
 id: gettingstartedjibri
-title: Getting Started With Jibri
+title: Starting Out With Jibri
 ---
 
 In order to record conferences the following are required;
