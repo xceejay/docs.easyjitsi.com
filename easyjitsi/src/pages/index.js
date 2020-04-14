@@ -7,6 +7,10 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import { Redirect } from "react-router-dom";
 
+if (typeof window === "undefined") {
+  global.window = {};
+}
+
 const features = [
   {
     title: <>Easy to Use</>,
