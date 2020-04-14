@@ -79,7 +79,7 @@ The next graphs zoom in on the intervals used to calculate the averages (during 
 
 ## Jitsi vs Zoom
 
-Here is a video of a quick side-by-side comparison of Zoom vs WebRTC performance in an environment with simulated congestion
+Here is a video of a quick side-by-side comparison of Zoom(WebRTC) vs Jitsi performance in an environment with simulated congestion
 
 <iframe width="800" height="500" src="http://www.youtube.com/embed/WFil-ZPE0-g" frameborder="0" allowfullscreen></iframe>
 
