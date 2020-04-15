@@ -48,7 +48,7 @@ module.exports = {
           items: [
             {
               label: "Telegram",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "https://t.me/easyjitsi",
             },
           ],
         },
