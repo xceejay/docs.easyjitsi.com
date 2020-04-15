@@ -25,11 +25,3 @@ and follow this short guide.
 
 ### Done😁
 
-## Creating Pull Requests
-
-- Make sure your code passes the linter rules beforehand. The linter is executed
-  automatically when committing code.
-- Perform **one** logical change per pull request.
-- Maintain a clean list of commits, squash them if necessary.
-- Rebase your topic branch on top of the master branch before creating the pull
-  request.
