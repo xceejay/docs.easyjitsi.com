@@ -1,6 +1,6 @@
 ---
-id: iframeapi
-title: Integrating the Jitsi Iframe Api
+id: IFrameapi
+title: Integrating the Jitsi IFrame API
 ---
 
 # Jitsi Meet API
@@ -26,14 +26,14 @@ Its constructor gets a number of options:
   example.
 - **options**: object with properties - the optional arguments:
   - **roomName**: (optional) name of the room to join.
-  - **width**: (optional) width for the iframe which will be created. If a number is specified it's treated as pixel units. If a string is specified the format is number followed by 'px', 'em', 'pt' or '%'.
-  - **height**: (optional) height for the iframe which will be created. If a number is specified it's treated as pixel units. If a string is specified the format is number followed by 'px', 'em', 'pt' or '%'.
-  - **parentNode**: (optional) HTML DOM Element where the iframe will be added as a child.
+  - **width**: (optional) width for the IFrame which will be created. If a number is specified it's treated as pixel units. If a string is specified the format is number followed by 'px', 'em', 'pt' or '%'.
+  - **height**: (optional) height for the IFrame which will be created. If a number is specified it's treated as pixel units. If a string is specified the format is number followed by 'px', 'em', 'pt' or '%'.
+  - **parentNode**: (optional) HTML DOM Element where the IFrame will be added as a child.
   - **configOverwrite**: (optional) JS object with overrides for options defined in [config.js].
   - **interfaceConfigOverwrite**: (optional) JS object with overrides for options defined in [interface_config.js].
   - **noSSL**: (optional, defaults to true) Boolean indicating if the server should be contacted using HTTP or HTTPS.
   - **jwt**: (optional) [JWT](https://jwt.io/) token.
-  - **onload**: (optional) handler for the iframe onload event.
+  - **onload**: (optional) handler for the IFrame onload event.
   - **invitees**: (optional) Array of objects containing information about new participants that will be invited in the call.
   - **devices**: (optional) A map containing information about the initial devices that will be used in the call.
   - **userInfo**: (optional) JS object containing information about the participant opening the meeting, such as `email`.
@@ -607,10 +607,10 @@ You can get the email of a participant in the conference with the following API 
 const email = api.getEmail(participantId);
 ```
 
-You can get the iframe HTML element where Jitsi Meet is loaded with the following API function:
+You can get the IFrame HTML element where Jitsi Meet is loaded with the following API function:
 
 ```javascript
-const iframe = api.getIFrame();
+const IFrame = api.getIFrame();
 ```
 
 You can check whether the audio is muted with the following API function:
