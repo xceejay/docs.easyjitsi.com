@@ -1,8 +1,6 @@
 # Easy Jitsi
 
-## To Contribute
-
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+### Contribution
 
 ### Installation
 
@@ -25,4 +23,3 @@ $ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
