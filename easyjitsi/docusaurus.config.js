@@ -10,7 +10,7 @@ module.exports = {
     navbar: {
       title: "Easy Jitsi Documentation",
       logo: {
-        alt: " Site Logo",
+        alt: "Easy Jitsi",
         src: "img/logo.svg",
       },
       links: [
@@ -35,12 +35,12 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Style Guide",
-              to: "docs/welcome",
+              label: "Home Page",
+              to: "https://easyjitsi.com",
             },
             {
-              label: "Second Doc",
-              to: "docs/intro",
+              label: "Help",
+              to: "docs/help",
             },
           ],
         },
@@ -48,8 +48,8 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Main Website",
+              href: "https://easyjitsi.com",
             },
             {
               label: "Telegram",
@@ -78,19 +78,28 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()}  Easy Jitsi`,
     },
   },
+
   presets: [
     [
       "@docusaurus/preset-classic",
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/easyjitsi/docs.easyjitsi.com",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+
+        gtag: {
+          trackingID: "UA-141789564-1",
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
         },
       },
     ],
   ],
 };
+
+// module.exports = {
+//};

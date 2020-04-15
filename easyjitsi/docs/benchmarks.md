@@ -66,7 +66,7 @@ While the memory consumption wasn't specifically shown during these tests, it wa
 
 These results show that Jitsi Videobridge was able to handle a substantial bitrate with relatively low usage of resources, and that it scales extremely well with the bitrate/number of streams.
 
-More graphs for those that really want a deep look
+More graphs for those that really want a deep look.
 
 [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph3-gradual.png"></img>](https://jitsi.org/jitsi-videobridge-performance-evaluation/)
 
@@ -82,6 +82,6 @@ The next graphs zoom in on the intervals used to calculate the averages (during 
 
 Here was a video of a quick side-by-side comparison of Zoom vs Jitsi(WebRTC) performance in an environment with simulated congestion
 
-<iframe width="800" height="500" src="http://www.youtube.com/embed/WFil-ZPE0-g" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/WFil-ZPE0-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Detailed results can be found [here](https://jitsi.org/news/a-simple-congestion-test-for-zoom/).

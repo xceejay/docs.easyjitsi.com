@@ -3,6 +3,8 @@ id: config
 title: Configuration of Jitsi For Recording
 ---
 
+NB: **This section assumes we have logged into our Ubuntu server with the FQDN jitsimeet.easyjitsi.com**
+
 We need to configure Jitsi in order for it to find & allow Jibri to record conferences
 
 We do the following:
@@ -25,7 +27,9 @@ We then insert the following into the file we just opened
       }
       storage = "null"
       muc_room_cache_size = 1000
-  VirtualHost "recorder.easyjitsi.com" # replace this domain with the call_login domain
+
+
+      VirtualHost "recorder.easyjitsi.com" # replace this domain with the call_login domain
     modules_enabled = {
       "ping";
     }
@@ -71,4 +75,3 @@ hiddenDomain: 'recorder.easyjitsi.com',
 ```
 
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**
-
