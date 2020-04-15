@@ -5,15 +5,24 @@ and follow this short guide.
 
 ## Quick Guide
 
-- Fork The Repository
-  <img src="./static/img/fork.png"></img>
-- Clone the Repository and commit your changes
-- Make A Your Pull Request
-  <img src="./static/img/pullrequest.png"></img>
-- Create A Pull Request
-  <img src="./static/img/createrequest.png"></img>
-- Add Your Commit Description And Create Your Pull Request
-  <img src="./static/img/comment.png"></img>
+### Fork The Repository
+
+<img src="./static/img/fork.png"></img>
+
+### Clone the Repository and commit your changes
+
+### Make A Your Pull Request
+
+<img src="./static/img/pullrequest.png"></img>
+
+### Create A Pull Request
+
+<img src="./static/img/createrequest.png"></img>
+
+### Add Your Commit Description And Create Your Pull Request
+
+<img src="./static/img/comment.png"></img>
+
 - Done😁
 
 ## Creating Pull Requests
