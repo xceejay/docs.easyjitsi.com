@@ -13,7 +13,7 @@ In this section [Easy Jitsi](easyjitsi.com) will guide you through the process o
 
 ### Ubuntu Server Specific Prerequisites
 
-- A [root]("https://geek-university.com/linux/root-account/") user
+- A root user
 - A sub domain **jitsimeet.easyjitsi.com** being pointed to the server mentioned above.
 
 NB: **_Our example server will be using 2GB of RAM_**
