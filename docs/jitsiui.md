@@ -40,7 +40,7 @@ Short Descriptions on the parts of the UI:
 - **LANG_DETECTION:**This allows system language detection when set to true(**BOOLEAN**)
 - **INVITATION_POWERED_BY:**This shows the name of the service when an invitation is sent when set to true(**BOOLEAN**)
 - **AUTHENTICATION_ENABLE:**This shows authenticaion block in the profile when set to true(**BOOLEAN**)
-- **TOOLBAR BUTTONS(STRING_ARRAY)**:This enables buttons that can be shown in the toolbar
+- **TOOLBAR BUTTONS(STRING_ARRAY)**:This enables buttons that can be shown in the toolbar <span />  
   **_The following are toolbar buttons that can be added:_**
   - microphone
   - camera
