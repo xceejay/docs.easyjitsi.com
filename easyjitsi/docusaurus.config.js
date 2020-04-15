@@ -48,7 +48,7 @@ module.exports = {
           items: [
             {
               label: "Telegram",
-              href: "https://t.me/easyjitsi",
+              href: "https://t.me/easyjitsisuppport",
             },
           ],
         },
@@ -57,8 +57,8 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/easyjitsi/easyjitsi",
-            }
+              href: "https://github.com/easyjitsi/",
+            },
           ],
         },
       ],
