@@ -3,8 +3,6 @@ id: docker
 title: Jitsi Meets Docker
 ---
 
-# Jitsi Meet on Docker
-
 [<img src="/img/dockerjitsi.png" ></img>]()
 
 ## Quick start
