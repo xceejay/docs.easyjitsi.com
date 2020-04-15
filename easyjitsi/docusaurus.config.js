@@ -1,6 +1,6 @@
 module.exports = {
   title: "Easy Jitsi Documentation",
-  tagline: "Easy Jitsi Documentation",
+  tagline: "The Only Documentation you'll Ever Need to Get Started with Jitsi",
   url: "https://docs.easyjitsi.com",
   baseUrl: "/",
   favicon: "img/favicon.ico",
