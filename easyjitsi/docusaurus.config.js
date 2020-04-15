@@ -8,7 +8,7 @@ module.exports = {
   projectName: "easyjitsi", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Easy Jitsi Documentation",
+      title: "Easy Jitsi",
       logo: {
         alt: "Easy Jitsi",
         src: "img/logo.svg",
