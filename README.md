@@ -6,5 +6,5 @@ We would love to have your help. Use this [Guide](CONTRIBUTION.md) if you don't 
 
 ## Visit our website 
 
-[Main Website](https://easyjitsi.com/)
+[Main Website](https://easyjitsi.com/) </span>
 [Documentation](https://docs.easyjitsi.com/)
