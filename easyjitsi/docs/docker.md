@@ -5,7 +5,7 @@ title: Jitsi Meets Docker
 
 # Jitsi Meet on Docker
 
-![](resources/jitsi-docker.png)
+[<img src="/img/docker.png" ></img>]()
 
 ## Quick start
 

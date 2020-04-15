@@ -3,10 +3,11 @@ id: benchmarks
 title: Benchmarks
 ---
 
-[<img src="/img/giphy.gif"></img>]()
-[<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-essentials.png"></img>]()
+[<img src="/img/bench.png"></img>]()
 
-On a plain Xeon server for about 20% CPU Jitsi will be able to run 1000+ video streams using an average of 550 Mbps! Check the graph below!
+**On a plain Xeon server for about 20% CPU Jitsi will be able to run 1000+ video streams using an average of 550 Mbps! Check the detailed graphs below!**
+
+[<img src="/img/giphy.gif"  ></img>]()
 
 ## Performance Evaluation 1
 
@@ -34,6 +35,7 @@ One challenge when evaluating Jitsi Videobridge was getting to send enough traff
 What was done instead was to create a conference with a full-star topology where incoming traffic from any and every endpoint was being propagated to every other endpoint connected to Jitsi Videobridge. With this configuration we have K\*(K-1) streams leaving the videobridge (and K-1 arriving).
 
 [<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-topology.png"></img>]()
+
 Tests were ran with different numbers of load-generating endpoints and K = 10, 15, 20, 25, 29 and 33.
 
 The number of actual video streams increases quadratically with the number of load-generating endpoints, because each of the endpoints also acts as a destination that traffic from everyone else needs to be encrypted and delivered to. Note that in practice one would never want to run a conference that way:
