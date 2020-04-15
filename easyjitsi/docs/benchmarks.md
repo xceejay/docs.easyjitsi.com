@@ -6,8 +6,11 @@ title: Benchmarks
 [<img src="/img/bench.png"></img>]()
 
 **On a plain Xeon server for about 20% CPU Jitsi will be able to run 1000+ video streams using an average of 550 Mbps! Check the detailed graphs below!**
+<<<<<<< HEAD:docs/benchmarks.md
 
 [<img src="/img/giphy.gif"  ></img>]()
+=======
+>>>>>>> 88c3c212a7d93abf7826f1299e465d552bd4bf8e:easyjitsi/docs/benchmarks.md
 
 ## Performance Evaluation 1
 
