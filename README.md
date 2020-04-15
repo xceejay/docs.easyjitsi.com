@@ -1,27 +1,10 @@
 # Easy Jitsi
 
-### Contribution
+## Contribution
 
 Use this [Guide](CONTRIBUTION.md)
 
-### Installation
+## Visit our website 
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+[Main Website](https://easyjitsi.com/)
+[Documentation](https://docs.easyjitsi.com/)
