@@ -20,7 +20,6 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/easyjitsi/docs.easyjitsi.com",
           label: "GitHub",
@@ -48,10 +47,6 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Main Website",
-              href: "https://easyjitsi.com",
-            },
-            {
               label: "Telegram",
               href: "https://discordapp.com/invite/docusaurus",
             },
@@ -61,17 +56,9 @@ module.exports = {
           title: "Social",
           items: [
             {
-              label: "Blog",
-              to: "blog",
-            },
-            {
               label: "GitHub",
               href: "https://github.com/easyjitsi/easyjitsi",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
+            }
           ],
         },
       ],
