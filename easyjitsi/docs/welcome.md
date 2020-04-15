@@ -7,8 +7,6 @@ Welcome to the Easy Jitsi Documentation!
 Thank you for choosing Easy Jitsi as your WebRTC service providers!
 This guide will help you setup Jitsi Meet.
 
-<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/L00TeZBMo2utPz7AT1" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/AsmodeeGames-fun-board-games-ecos-L00TeZBMo2utPz7AT1">via GIPHY</a></p>
-
 ## Navigation
 
 You can find different topics in the table of contents. On desktop, you should see it in the left sidebar. On mobile, you should see it after pressing an hamburger menu icon in the top left corner.
