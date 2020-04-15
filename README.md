@@ -2,6 +2,8 @@
 
 ### Contribution
 
+Use this [Guide](CONTRIBUTION.md)
+
 ### Installation
 
 ```
