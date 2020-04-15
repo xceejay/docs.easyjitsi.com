@@ -11,7 +11,7 @@ This guide will help you setup Jitsi Meet.
 
 ## Navigation
 
-You can find different topics in the table of contents. On desktop, you should see it in the left sidebar. On mobile, you should see it after pressing an hamburger menu icon in the top left corner.
+You can find different topics in the table of contents. On desktop, you should see it in the left sidebar. On mobile, you should see it after pressing an hamburger menu icon in the bottom right corner.
 
 ## About the Documentation
 
