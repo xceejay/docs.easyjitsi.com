@@ -14,7 +14,7 @@ and follow this short guide.
   [<img src="./static/img/createrequest.png"></img>]
 - Add Your Commit Description And Create Your Pull Request
   [<img src="./static/img/comment.png"></img>]
-- Done🙃
+- Done😁
 
 ## Creating Pull Requests
 
