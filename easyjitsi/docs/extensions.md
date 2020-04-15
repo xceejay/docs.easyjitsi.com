@@ -3,11 +3,11 @@ id: extensions
 title: Extending Jitsi
 ---
 
-# Jigasi
+## Jigasi
 
 Jitsi Gateway to SIP : a server-side application that links allows regular SIP clients to join Jitsi Meet conferences hosted by Jitsi Videobridge.
 
-# Install and run
+### Install and run
 
 It is possible to install Jigasi along with Jitsi Meet using our [quick install instructions] or do this from sources using the instructions below.
 
@@ -63,15 +63,15 @@ Supported arguments:
 - --min-port: the minimum port number that we'd like our RTP managers to bind upon.
 - --max-port: the maximum port number that we'd like our RTP managers to bind upon.
 
-# How it works
+### How it works
 
 Jigasi registers as a SIP client and can be called or be used by Jitsi Meet to make outgoing calls. Jigasi is NOT a SIP server. It is just a connector that allows SIP servers and B2BUAs to connect to Jitsi Meet. It handles the XMPP signalling, ICE, DTLS/SRTP termination and multiple-SSRC handling for them.
 
-# Outgoing calls
+### Outgoing calls
 
 To call someone from Jitsi Meet application, Jigasi must be configured and started like described in the 'Install and run' section. This will cause the telephone icon to appear in the toolbar which will popup a call dialog on click.
 
-# Incoming calls
+### Incoming calls
 
 Jigasi will register on your SIP server with some identity and it will accept calls. When Jigasi is called, it expects to find a 'Jitsi-Conference-Room' header in the invite with the name of the Jitsi Meet conference the call is to be patched through to. If no header is present it will join the room specified under 'org.jitsi.jigasi.DEFAULT_JVB_ROOM_NAME' config property. In order to change it, edit 'jigasi-home/sipcommunciator.properties' file.
 
@@ -79,7 +79,7 @@ Example:
 
 Received SIP INVITE with room header 'Jitsi-Conference-Room': 'room1234' will cause Jigasi to join the conference 'https://meet.jit.si/room1234' (assuming that our domain is 'meet.jit.si').
 
-# Configuring SIP and Transcription
+### Configuring SIP and Transcription
 
 It is possible to either enable or disable the functionality of SIP and
 transcription. By default, the properties
@@ -91,7 +91,7 @@ in
 enable SIP and disable transcription. To change this, simple set the desired
 property to `true` or `false`.
 
-# Using Jigasi to transcribe a Jitsi Meet conference
+### Using Jigasi to transcribe a Jitsi Meet conference
 
 It is also possible to use Jigasi as a provider of nearly real-time transcription
 while a conference is ongoing as well as serving a complete transcription
@@ -180,7 +180,7 @@ XMPP account must also be set to make Jigasi be able to join a conference room.
     </tr>
 </table>
 
-# Call control MUCs (brewery)
+### Call control MUCs (brewery)
 
 For outgoing calls jigasi by default configures using callcontrol XMPP component
 (when installing using Debian package). Jicofo discovers jigasi components and
@@ -249,7 +249,7 @@ net.java.sip.communicator.impl.protocol.jabber.acc-xmpp-1.CallStats.STATISTICS_I
 The configuration for the XMPP control MUCs that jigasi uses can be modified at
 run time using REST calls to `/configure/`.
 
-# Adding an XMPP control MUC
+### Adding an XMPP control MUC
 
 A new XMPP control MUC can be added by posting a JSON which contains its configuration to `/configure/call-control-muc/add`:
 
@@ -267,7 +267,7 @@ If a configuration with the specified ID already exists, the request will
 succeed (return 200), but the configuration will NOT be updated. If you need to
 update an existing configuration, you need to remove it first and then re-add it.
 
-# Removing an XMPP control MUC.
+### Removing an XMPP control MUC.
 
 An XMPP control MUC can be removed by posting a JSON which contains its ID
 to `/configure/call-control-muc/remove`:
@@ -281,3 +281,60 @@ to `/configure/call-control-muc/remove`:
 The request will be successful (return 200) as long as the format of the JSON is
 as expected, and the connection was found and removed.
 
+## Jidesha
+
+A Chrome extension for calendar integration (Google Calendar and Office 365) and Screen Sharing in Jitsi Meet.
+
+Note: this extension relies on the Chrome [chooseDesktopMedia](https://developer.chrome.com/extensions/desktopCapture) API which requires HTTPS.
+
+### How to create your own extension for your Jitsi Meet installation
+
+Each Jitsi Meet installation needs a customised extension.
+There is only one small JSON file to adapt. You have
+to create the extension and distribute it, either through
+Google Chrome's Web Store or by telling your users how to
+install the CRX file.
+
+### Create the extension
+
+Edit the `manifest.json` file. You must adapt the `externally_connectable`
+URL:
+
+    "matches": [
+        "*://your.server.com/*"
+    ]
+
+Do not include any port information.
+
+You might also want to edit the name, the description, the version or
+to replace the icons.
+
+Then, according to https://developer.chrome.com/extensions/packaging ,
+go inside Chrome to "chrome://extensions", click on the Developer Mode,
+and "Pack extension". The result is a CRX file and, if you do this for
+the first time, a private key used for later updates.
+
+### Install your own extension
+
+Install your own extension into your Chrome. One way is to drag the
+CRX file into the "chrome://extensions" window.
+
+When Chrome shows it among your installed extensions,
+you will also see its _hash ID_.
+
+### Enter your extension's hash ID into your Jitsi Meet installation
+
+You have to write the hash ID into the `desktopSharingChromeExtId`
+property of your `/etc/jitsi/meet/<your.server.com>-config.js`.
+This way, Jitsi Meet knows what to look for when the user clicks
+the "Share screen" button.
+
+Browser caches might need to be refreshed afterwards.
+
+### Distribute your extension manually to your users
+
+You can send the CRX file to your users and tell them how to
+install it. For example, you might want to put it
+directly onto your Jitsi Meet server (webroot in `/usr/share/jitsi-meet`).
+This would only be helpful for downloading the extension, as
+Chrome will not allow a direct installation from your site.
