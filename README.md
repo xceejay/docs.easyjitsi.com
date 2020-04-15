@@ -1,6 +1,12 @@
 # Easy Jitsi
 
+<<<<<<< HEAD
 ### Contribution
+=======
+## To Contribute
+
+
+>>>>>>> d8986d7a8a2e342bee832f33dccf8531d3233535
 
 ### Installation
 
