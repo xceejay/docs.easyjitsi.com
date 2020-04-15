@@ -92,7 +92,7 @@ module.exports = {
         },
 
         gtag: {
-          trackingID: "UA-141789564-1",
+          trackingID: "UA-163579416-2",
           // Optional fields.
           anonymizeIP: true, // Should IPs be anonymized?
         },
