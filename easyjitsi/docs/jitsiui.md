@@ -1,6 +1,6 @@
 ---
 id: jitsiui
-title: Customizing The Jitsi Meet Ui
+title: Customizing The Jitsi Meet UI
 ---
 
 NB **This section assumes we have logged into our Ubuntu server with the FQDN jitsimeet.easyjitsi.com**
