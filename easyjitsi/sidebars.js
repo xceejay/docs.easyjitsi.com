@@ -11,10 +11,9 @@ module.exports = {
     "Recording with Jibri": [
       "gettingstartedjibri",
       "installingdep",
-      "config",
-      "jibri",
+      "config"
     ],
-    "Customizing the Ui": ["jitsiui"],
+    "Customizing the UI": ["jitsiui"],
     "Jitsi & Docker": ["docker"],
     "Integrating Jitsi with Your Application": ["iframeapi"],
     Deployment: ["extensions", "tips"],
