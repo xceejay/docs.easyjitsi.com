@@ -65,7 +65,14 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()}  Easy Jitsi`,
     },
   },
-
+  plugins: ['@docusaurus/plugin-google-analytics'],
+  themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-163579416-2',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
+  },
   presets: [
     [
       "@docusaurus/preset-classic",
