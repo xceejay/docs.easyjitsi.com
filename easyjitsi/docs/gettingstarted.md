@@ -5,6 +5,8 @@ title: Starting Out
 
 In this section [Easy Jitsi](easyjitsi.com) will guide you through the process of setting up an Ubuntu 18.04 LTS server for Jitsi Meet.
 
+![alt text](https://media1.giphy.com/media/26zzdF4XDAvGsWCVG/giphy.gif?cid=ecf05e47621df61b0ef53636920fbf82ce6461807c98374c&rid=giphy.gif "Ready like Bolt!")
+
 ## Prerequisites
 
 - An Ubuntu 18.04 LTS x64 server with an [IPv4 address](https://en.wikipedia.org/wiki/IPv4).
