@@ -1,8 +1,6 @@
 # Easy Jitsi
 
-## To Contribute
-
-
+### To Contribute
 
 ### Installation
 
