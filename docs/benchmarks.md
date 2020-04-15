@@ -71,7 +71,7 @@ These results show that Jitsi Videobridge was able to handle a substantial bitra
 
 More graphs for those that really want a deep look.
 
-[<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph3-gradual.png"></img>])
+<img src="https://desktop.jitsi.org/wiki/pub/jvb-eval-graph3-gradual.png"></img>
 
 ## Averages
 
