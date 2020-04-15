@@ -7,7 +7,7 @@ Welcome to the Easy Jitsi Documentation!
 Thank you for choosing Easy Jitsi as your WebRTC service providers!
 This guide will help you setup Jitsi Meet.
 
-![alt text](https://i.giphy.com/media/L00TeZBMo2utPz7AT1/giphy.webp "Welcome")
+![alt text](https://i.giphy.com/media/3oEjHQn7PBRvy9A5mE/giphy.webp "Welcome")
 
 ## Navigation
 
