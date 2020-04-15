@@ -5,7 +5,7 @@ title: Starting Out With Jibri
 
 In order to record conferences the following are required;
 
-![alt text](https://i.giphy.com/media/AsETz3LKBp9bG/giphy.webp "Recording is Easy")
+![alt text](https://i.giphy.com/media/4TrOp8epqCvKxjqMD3/giphy.webp "Recording is Easy")
 
 ## Prerequisites
 
