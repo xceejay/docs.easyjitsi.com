@@ -1,5 +1,5 @@
 ---
-id: IFrameapi
+id: iframeapi
 title: Integrating the Jitsi IFrame API
 ---
 
