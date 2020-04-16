@@ -3,6 +3,8 @@ id: welcome
 title: Preface
 ---
 
+<meta name="google-site-verification" content="8jJyJRNrGWnaAJIj3QADhjGestgjM4SzDSvdovQ986U" />
+
 Welcome to the Easy Jitsi Documentation!
 Thank you for choosing Easy Jitsi as your WebRTC service providers!
 This guide will help you setup Jitsi Meet.
