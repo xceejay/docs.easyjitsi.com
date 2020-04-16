@@ -158,7 +158,7 @@ work on a non-Linux host.
 
 For CentOS 7, the module is already compiled with the kernel, so just run:
 
-```
+```bash
 # configure 5 capture/playback interfaces
 echo "options snd-aloop enable=1,1,1,1,1 index=0,1,2,3,4" > /etc/modprobe.d/alsa-loopback.conf
 # setup autoload the module
@@ -171,7 +171,7 @@ lsmod | grep snd_aloop
 
 For Ubuntu:
 
-```
+```bash
 # install the module
 apt update && apt install linux-image-extra-virtual
 # configure 5 capture/playback interfaces
@@ -185,7 +185,7 @@ lsmod | grep snd_aloop
 NOTE: If you are running on AWS you may need to reboot your machine to use the generic kernel instead
 of the "aws" kernel. If after reboot, your machine is still using the "aws" kernel, you'll need to manually update the grub file. So just run:
 
-```
+```bash
 # open the grub file in editor
 nano /etc/default/grub
 # Modify the value of GRUB_DEFAULT from "0" to "1>2"
@@ -337,7 +337,7 @@ set `AUTH_TYPE` to `jwt`, then configure the settings you can see below.
 
 This can be tested using the [jwt.io] debugger. Use the following sample payload:
 
-```
+```json
 {
   "context": {
     "user": {
