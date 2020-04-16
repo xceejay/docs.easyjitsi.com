@@ -23,23 +23,33 @@ modprobe snd-aloop
 
 **NB**: If you are running on AWS you may need to reboot your machine to use the generic kernel instead of the "aws" kernel. If after reboot, your machine is still using the "aws" kernel, you'll need to manually update the grub file. So just run:
 
-```bash
-# open the grub file in editor
-vim /etc/default/grub
-# Modify the value of GRUB_DEFAULT from "0" to "1>2"
-# Save and exit from file
+Open the grub file
 
-# Update grub
-update-grub
-# Reboot the machine
-reboot now
+```bash
+vim /etc/default/grub
 ```
+
+Modify the value of `GRUB_DEFAULT` from "0" to "1>2"
+
+Save and exit from file
+
+Update Grub
+
+```bash
+update-grub
+```
+
+Reboot the machine
+
+````bash
+shutdown -r now
+``
 
 Install FFMPEG
 
 ```bash
 apt install ffmpeg
-```
+````
 
 Install The Latest Google Chrome stable & Chromedriver
 
