@@ -21,11 +21,11 @@ echo "snd-aloop">>/etc/modules
 modprobe snd-aloop
 ```
 
-**NOTE**: If you are running on AWS you may need to reboot your machine to use the generic kernel instead of the "aws" kernel. If after reboot, your machine is still using the "aws" kernel, you'll need to manually update the grub file. So just run:
+**NB**: If you are running on AWS you may need to reboot your machine to use the generic kernel instead of the "aws" kernel. If after reboot, your machine is still using the "aws" kernel, you'll need to manually update the grub file. So just run:
 
 ```bash
 # open the grub file in editor
-nano /etc/default/grub
+vim /etc/default/grub
 # Modify the value of GRUB_DEFAULT from "0" to "1>2"
 # Save and exit from file
 
