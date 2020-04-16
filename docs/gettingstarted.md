@@ -57,7 +57,7 @@ hostname
 hostname -f
 ```
 
-We then ensure the firewall is allowed for OpenSSH, HTTP, and HTTPS traffic, along with inbound UDP traffic on port 10000 through port 20000:
+We then ensure the firewall is allowed for OpenSSH, HTTP, and HTTPS traffic, along with inbound UDP traffic on port 10000:
 
 We do that by running the following commands:
 
@@ -65,7 +65,7 @@ We do that by running the following commands:
  ufw allow OpenSSH
  ufw allow http
  ufw allow https
- ufw allow in 10000:20000/udp
+ ufw allow in 10000/udp
  ufw enable
 ```
 
