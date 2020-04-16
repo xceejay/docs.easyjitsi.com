@@ -15,14 +15,15 @@ Once you clone the repository you can use these instructions to start a local de
 
 #### Using Yarn
 
-````bash
+```bash
 yarn install && yarn start
 ```
+
 #### Using NPM
 
 ```bash
-yarn install && yarn start
-````
+npm install && npm run-script start
+```
 
 This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
