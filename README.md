@@ -9,7 +9,7 @@ We would love to have your help. Use this [Guide](https://github.com/easyjitsi/d
 [Main Website](https://easyjitsi.com/)
 
 
-[Documentation](https://docs.easyjitsi.com
+[Documentation](https://docs.easyjitsi.com)
 ️
 
 
