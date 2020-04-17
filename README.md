@@ -9,4 +9,4 @@ We would love to have your help. Use this [Guide](https://github.com/easyjitsi/d
 [Main Website](https://easyjitsi.com/) </br>
 [Documentation](https://docs.easyjitsi.com/)</br>
 ️
-🌟Kindly Give Us A Star️🌟
+🌟Kindly Star️ Our Project🌟
