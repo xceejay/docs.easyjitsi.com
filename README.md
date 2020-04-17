@@ -7,6 +7,6 @@ We would love to have your help. Use this [Guide](https://github.com/easyjitsi/d
 ## Visit our website 
 
 [Main Website](https://easyjitsi.com/) </br>
-[Documentation](https://docs.easyjitsi.com/) </br>
+[Documentation](https://docs.easyjitsi.com/)</br>
 ️
-Give Us A Star️ 🌟
+Kindly Give Us A Star️ 🌟
