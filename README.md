@@ -6,7 +6,11 @@ We would love to have your help. Use this [Guide](https://github.com/easyjitsi/d
 
 ## Visit our website 
 
-[Main Website](https://easyjitsi.com/) </br>
-[Documentation](https://docs.easyjitsi.com/)</br>
+[Main Website](https://easyjitsi.com/)
+
+
+[Documentation](https://docs.easyjitsi.com
 ️
+
+
 🌟Kindly Star️ Our Project🌟
