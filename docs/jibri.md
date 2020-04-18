@@ -35,13 +35,13 @@ We modify the file as follows;
       "name": "prod environment",
       // The hosts of the XMPP servers to connect to as part of
       //  this environment
-      "xmpp_server_hosts": ["jitsi.easyjitsi.com"],
+      "xmpp_server_hosts": ["jitsimeet.easyjitsi.com"],
       // The xmpp domain we'll connect to on the XMPP server
       "xmpp_domain": "jitsi.easyjitsi.com",
       // Jibri will login to the xmpp server as a privileged user
       "control_login": {
         // The domain to use for logging in
-        "domain": "auth.jitsi.easyjitsi.com",
+        "domain": "auth.jitsimeet.easyjitsi.com",
         // The credentials for logging in
         "username": "jibri",
         "password": "jibriauthpass"
@@ -50,7 +50,7 @@ We modify the file as follows;
       //  a control muc as a means of announcing its availability
       //  to provide services for a given environment
       "control_muc": {
-        "domain": "internal.auth.jitsi.easyjitsi.com",
+        "domain": "internal.auth.jitsimeet.easyjitsi.com",
         "room_name": "JibriBrewery",
         // Nickname for uniquely identifing the jibri. It should be unique always
         // if multiple jibris listening to same XMPP server
@@ -61,7 +61,7 @@ We modify the file as follows;
       //  with credentials to give it special abilities (e.g. not being
       //  displayed to other users like a normal participant)
       "call_login": {
-        "domain": "recorder.jitsi.easyjitsi.com",
+        "domain": "recorder.jitsimeet.easyjitsi.com",
         "username": "recorder",
         "password": "jibrirecorderpass"
       },

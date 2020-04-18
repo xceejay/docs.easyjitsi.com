@@ -128,6 +128,6 @@ Short Descriptions on the parts of the UI:
 - **ENFORCE_NOTIFICATION_AUTO_DISMISS_TIMEOUT:**Whether auto dismiss timeout should be enforced(**BOOLEAN**)
 - **INDICATOR_FONT_SIZES:**Sets the size of the font in the indicator(**INTEGER**)
 - **MOBILE_DYNAMIC_LINK:**Sets the alternate links to mobile app download(**STRING**)
-- **PHONE_NUMBER_REGEX**Regular expressions for phone numbers(REGEX)
+- **PHONE_NUMBER_REGEX**Regular expressions for phone numbers(**REGEX**)
 
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**

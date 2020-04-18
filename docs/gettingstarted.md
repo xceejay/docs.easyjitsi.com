@@ -70,11 +70,11 @@ We do that by running the following commands:
 ```
 
 There may be a prompt that will ask `Command may disrupt existing ssh connections. Proceed with operation (y|n)?`, type `y` and then press `Enter`.
-We Update and updgrade our packages and Reboot our server
+We Update and upgrade our packages and Reboot our server
 
 NB: **_This will log us out of the Ubuntu server: We wait for a few seconds and login into the server again._**
 
 ```bash
 apt update
-apt upgrade -y &&shutdown -r now
+apt upgrade -y && shutdown -r now
 ```
