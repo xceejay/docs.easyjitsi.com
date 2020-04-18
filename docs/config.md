@@ -21,19 +21,19 @@ We then insert the following into the file we just opened
 
 ```lua
 -- internal muc component, meant to enable pools of jibri and jigasi clients
-  Component "internal.auth.jitsimeet.easyjitsi.com" "muc"
-      modules_enabled = {
-        "ping";
-      }
-      storage = "null"
-      muc_room_cache_size = 1000
+Component "internal.auth.jitsimeet.easyjitsi.com" "muc"
+modules_enabled = {
+  "ping";
+}
+storage = "null"
+muc_room_cache_size = 1000
 
 
-      VirtualHost "recorder.easyjitsi.com" # replace this domain with the call_login domain
-    modules_enabled = {
-      "ping";
-    }
-    authentication = "internal_plain"
+VirtualHost "recorder.easyjitsi.com"
+modules_enabled = {
+  "ping";
+}
+authentication = "internal_plain"
 ```
 
 ### Register recorders with prosody
@@ -70,7 +70,7 @@ We append the following configuration to the file
 
 ```bash
 fileRecordingsEnabled: true,
-hiddenDomain: 'recorder.easyjitsi.com',
+  hiddenDomain: 'recorder.easyjitsi.com',
 ```
 
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**

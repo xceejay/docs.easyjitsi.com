@@ -30,7 +30,7 @@ We then run the following command to setup a hostname, recorder, and an FQDN, re
 
 ```bash
  hostnamectl set-hostname recorder
- sed -i 's/^127.0.1.1.*$/127.0.1.1 recorder.example.com recorder/g' /etc/hosts
+ sed -i 's/^127.0.1.1.*$/127.0.1.1 recorder.easyjitsi.com recorder/g' /etc/hosts
 ```
 
 To verify it was set properly we run these commands
