@@ -57,21 +57,12 @@ module.exports = {
             },
           ],
         },
-        {
-          title: "Social",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/easyjitsi/",
-            },
-          ],
-        },
-        ,
+
         {
           title: "License",
           items: [
             {
-              label: "GitHub",
+              label: "Apache 2.0",
               href:
                 "https://github.com/easyjitsi/docs.easyjitsi.com/blob/master/LICENSE",
             },
