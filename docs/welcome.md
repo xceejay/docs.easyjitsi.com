@@ -3,6 +3,8 @@ id: welcome
 title: Preface
 ---
 
+<head>  <meta name="description" content="The Only Website You Will need to deploy Jitsi"></meta></head>
+
 <meta name="google-site-verification" content="8jJyJRNrGWnaAJIj3QADhjGestgjM4SzDSvdovQ986U" />
 
 Welcome to the Easy Jitsi Documentation!
