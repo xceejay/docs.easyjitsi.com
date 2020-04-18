@@ -63,14 +63,13 @@ org.jitsi.jicofo.jibri.PENDING_TIMEOUT=90
 We open this file
 
 ```bash
-vim /etc/jitsi/meet/easyjitsi.com-config.js
+vim /etc/jitsi/meet/jitsimeet.easyjitsi.com-config.js
 ```
 
 We append the following configuration to the file
 
 ```bash
 fileRecordingsEnabled: true,
-liveStreamingEnabled: true,
 hiddenDomain: 'recorder.easyjitsi.com',
 ```
 
