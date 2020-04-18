@@ -47,7 +47,7 @@ We then run the following command to setup a hostname, jitsimeet, and an FQDN, j
 
 ```bash
  hostnamectl set-hostname jitsimeet
- sed -i 's/^127.0.1.1.*$/127.0.1.1 jitsimeet.example.com jitsimeet/g' /etc/hosts
+ sed -i 's/^127.0.1.1.*$/127.0.1.1 jitsimeet.easyjitsi.com jitsimeet/g' /etc/hosts
 ```
 
 To verify it was set properly we run these commands
