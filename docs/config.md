@@ -21,7 +21,7 @@ We then insert the following into the file we just opened
 
 ```lua
 -- internal muc component, meant to enable pools of jibri and jigasi clients
-  Component "internal.auth.easyjitsi.com" "muc"
+  Component "internal.auth.jitsimeet.easyjitsi.com" "muc"
       modules_enabled = {
         "ping";
       }
@@ -39,7 +39,7 @@ We then insert the following into the file we just opened
 ### Register recorders with prosody
 
 ```bash
-prosodyctl register jibri auth.easyjitsi.com jibriauthpass
+prosodyctl register jibri auth.jitsimeet.easyjitsi.com jibriauthpass
 prosodyctl register recorder recorder.easyjitsi.com jibrirecorderpass
 ```
 
@@ -54,7 +54,7 @@ vim /etc/jitsi/jicofo/sip-communicator.properties
 We append the following to the file
 
 ```bash
-org.jitsi.jicofo.jibri.BREWERY=JibriBrewery@internal.auth.easyjitsi.com
+org.jitsi.jicofo.jibri.BREWERY=JibriBrewery@internal.auth.jitsimeet.easyjitsi.com
 org.jitsi.jicofo.jibri.PENDING_TIMEOUT=90
 ```
 
