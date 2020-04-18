@@ -15,10 +15,9 @@ module.exports = {
       },
       links: [
         {
-          to: "docs/welcome",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
+          href: "https://easyjitsi.com",
+          label: "Homepage",
+          position: "right",
         },
         {
           href: "https://github.com/easyjitsi/docs.easyjitsi.com",
@@ -64,7 +63,14 @@ module.exports = {
             {
               label: "GitHub",
               href: "https://github.com/easyjitsi/",
+            },{
+            title: "License",
+          items: [
+            {
+              label: "GitHub",
+              href: "https://github.com/easyjitsi/docs.easyjitsi.com/blob/master/LICENSE",
             },
+
           ],
         },
       ],
