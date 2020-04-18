@@ -25,6 +25,12 @@ module.exports = {
           label: "GitHub",
           position: "right",
         },
+        {
+          href:
+            "https://github.com/easyjitsi/docs.easyjitsi.com/blob/master/LICENSE",
+          label: "License",
+          position: "right",
+        },
       ],
     },
     footer: {
