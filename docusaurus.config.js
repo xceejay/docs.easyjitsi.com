@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "easyjitsi", // Usually your GitHub org/user name.
-  projectName: "easyjitsi", // Usually your repo name.
+  projectName: "docs.easyjitsi.com", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Easy Jitsi",
@@ -63,14 +63,18 @@ module.exports = {
             {
               label: "GitHub",
               href: "https://github.com/easyjitsi/",
-            },{
-            title: "License",
+            },
+          ],
+        },
+        ,
+        {
+          title: "License",
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/easyjitsi/docs.easyjitsi.com/blob/master/LICENSE",
+              href:
+                "https://github.com/easyjitsi/docs.easyjitsi.com/blob/master/LICENSE",
             },
-
           ],
         },
       ],
