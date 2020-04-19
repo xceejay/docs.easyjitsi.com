@@ -36,6 +36,14 @@ modules_enabled = {
 authentication = "internal_plain"
 ```
 
+### Set client to server encryption to false
+
+Look for this line in the /etc/prosody/prosody.cfg.lua and set it to false
+
+```lua
+c2s_require_encryption = false
+```
+
 ### Register recorders with prosody
 
 ```bash
