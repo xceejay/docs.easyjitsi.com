@@ -17,6 +17,6 @@ module.exports = {
     "Customizing the UI": ["jitsiui"],
     "Jitsi & Docker": ["docker"],
     "Integrating Jitsi with Your Application": ["iframeapi"],
-    Deployment: ["scaling", "extensions", "tips"],
+    Deployment: ["scaling", "loadbalancing", "extensions", "tips"],
   },
 };
