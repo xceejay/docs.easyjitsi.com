@@ -81,4 +81,20 @@ fileRecordingsEnabled: true,
 hiddenDomain: 'recorder.easyjitsi.com',
 ```
 
+### Open these ports
+
+```bash
+ufw allow 80/tcp
+ufw allow 433/tcp
+ufw allow 5222/tcp
+ufw allow 5223/tcp
+ufw allow 4443/tcp
+ufw allow 10000:20000/udp
+ufw allow 5369/tcp
+```
+
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**
+
+```
+
+```

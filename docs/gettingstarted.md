@@ -61,12 +61,29 @@ We then ensure the firewall is allowed for OpenSSH, HTTP, and HTTPS traffic, alo
 
 We do that by running the following commands:
 
+<details>
+<summary>If you do not have UFW:</summary>
+Install it like so:
+
 ```bash
+apt install ufw -y
+```
+
+Once it's done installing enable it
+
+```bash
+ufw enable
+```
+
+</details>
+
+```bash
+ ufw enable
  ufw allow OpenSSH
  ufw allow http
  ufw allow https
  ufw allow in 10000/udp
- ufw enable
+ ufw start
 ```
 
 There may be a prompt that will ask `Command may disrupt existing ssh connections. Proceed with operation (y|n)?`, type `y` and then press `Enter`.
