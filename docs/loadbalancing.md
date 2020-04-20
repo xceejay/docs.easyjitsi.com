@@ -41,7 +41,7 @@ ufw allow 5222/tcp
 ufw reload
 ```
 
-###  Install jitsi-videobridge on the new videobridge-server JVB
+### Install jitsi-videobridge on the new videobridge-server JVB
 
 ```
 apt -y install jitsi-videobridge2
@@ -75,6 +75,7 @@ JAVA_SYS_PROPS="-Dnet.java.sip.communicator.SC_HOME_DIR_LOCATION=/etc/jitsi -Dne
 ```
 
 ### Copy the values from your jitsi-meet server (JMS) to the JVB Server:
+
 - on JMS open the file `/etc/jitsi/videobridge/sip-communicator.properties`, copy all content to clipboard and paste it on the JVB Server also in the file `/etc/jitsi/videobridge/sip-communicator.properties` replacing all other in it.
 - the content on JVB should be like:
 
@@ -127,3 +128,4 @@ Jicofo INFORMATION: [30] org.jitsi.jicofo.bridge.BridgeSelector.log() Added vide
 /etc/init.d/jitsi-videobridge2 start
 ```
 
+**_if you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**
