@@ -6,7 +6,7 @@
 
 The Only Documentation you'll Ever Need to Deploy Jitsi
 
-:handshake: Contributing
+## :handshake: Contributing
 
 We would love to have your help. Use this [Guide](https://github.com/easyjitsi/docs.easyjitsi.com/blob/master/CONTRIBUTING.md) if you don't know how to contribute.
 
