@@ -53,14 +53,14 @@ We then install Jitsi Meet
 apt install -y jitsi-meet
 ```
 
+During the installation, when we are asked to provide the hostname of the current installation, we type in the FQDN `jitsimeet.easyjitsi.com` and hit `Enter`
+
+Finally, once we are successful in our installation process, we can check if our Jitsi Meet site is up by heading to our local system and typing in our FQDN `jitsimeet.easyjitsi.com`
+
 Generate a new certificate with Let's encrypt
 
 ```bash
 /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 ```
-
-During the installation, when we are asked to provide the hostname of the current installation, we type in the FQDN `jitsimeet.easyjitsi.com` and hit `Enter`
-
-Finally, once we are successful in our installation process, we can check if our Jitsi Meet site is up by heading to our local system and typing in our FQDN `jitsimeet.easyjitsi.com`
 
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**
