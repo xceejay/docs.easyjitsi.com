@@ -25,4 +25,4 @@ Give a :star: if this project helped you in any way!
 
 Copyright © 2020 [EasyJitsi](https://github.com/easyjitsi).
 
-This project is [Apache 2.0](https://github.com/easyjitsi/docs.easyjitsi.com/blob/master/LICENSE)
+This project is licensed under [Apache 2.0](https://github.com/easyjitsi/docs.easyjitsi.com/blob/master/LICENSE)
