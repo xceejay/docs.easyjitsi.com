@@ -28,5 +28,5 @@ going at the same time. A 4 CPU, 8 GB machine will probably be fine.
 
 The videobridges will have more load. 4 or 8 CPU with 8 GB RAM seems to be a good configuration.
 
-See how to install it in the next [page](loadbalancing)
+See how to install it in the next [page](/docs/loadbalancing)
 
