@@ -9,11 +9,11 @@ JMS - Your Jeets-Meet Server installed like in the Quick-Install Guide, see abov
 
 JVB - the additional Jitsi Videobridge Server we are going to install now
 
-### Here are the steps to get it to work on a fresh installed Ubuntu 18.04:
+## Quick Setup
 
 > all commands are issued as root user
 
-- be sure to update ubuntu to the latest patches on JVB
+### Update ubuntu to the latest patches on JVB
 
 ```
 echo 'deb https://download.jitsi.org stable/' >> /etc/apt/sources.list.d/jitsi-stable.list
@@ -23,7 +23,7 @@ apt update
 apt upgrade
 ```
 
-- setup your firewall on the new videobridge-server JVB
+### Setup your firewall on the new videobridge-server JVB
 
 ```
 ufw status
@@ -34,14 +34,14 @@ ufw allow 10000:20000/udp
 ufw enable
 ```
 
-- setup the firewall on the jitsi-meet server where the first instance is running on JMS
+### Setup the firewall on the jitsi-meet server where the first instance is running on JMS
 
 ```
 ufw allow 5222/tcp
 ufw reload
 ```
 
-- install jitsi-videobridge on the new videobridge-server JVB
+###  Install jitsi-videobridge on the new videobridge-server JVB
 
 ```
 apt -y install jitsi-videobridge2
@@ -74,7 +74,7 @@ JVB_OPTS="--apis=,"
 JAVA_SYS_PROPS="-Dnet.java.sip.communicator.SC_HOME_DIR_LOCATION=/etc/jitsi -Dnet.java.sip.communicator.SC_HOME_DIR_NAME=videobridge -Dnet.java.sip.communicator.SC_LOG_DIR_LOCATION=/var/log/jitsi -Djava.util.logging.config.file=/etc/jitsi/videobridge/logging.properties"
 ```
 
-- copy the values from your jitsi-meet server (JMS) to the JVB Server:
+### Copy the values from your jitsi-meet server (JMS) to the JVB Server:
 - on JMS open the file `/etc/jitsi/videobridge/sip-communicator.properties`, copy all content to clipboard and paste it on the JVB Server also in the file `/etc/jitsi/videobridge/sip-communicator.properties` replacing all other in it.
 - the content on JVB should be like:
 
@@ -113,7 +113,7 @@ brewery@internal.auth.<your jitsi-domain>/<your JVB NICKNAME like jvb2>
 Jicofo INFORMATION: [30] org.jitsi.jicofo.bridge.BridgeSelector.log() Added videobridge: jvbbrewery@internal.auth.<your jitsi-domain>/<your JVB NICKNAME like jvb2> v: null
 ```
 
-# Test
+### Test
 
 - To simply test the installation, shutdown the videobridge on JMS Server and check if you still can connect to JitsiMeet and do a videomeeting. The Jicofo Service will automatically use a available server.
 
@@ -127,4 +127,3 @@ Jicofo INFORMATION: [30] org.jitsi.jicofo.bridge.BridgeSelector.log() Added vide
 /etc/init.d/jitsi-videobridge2 start
 ```
 
-Your'e done.
