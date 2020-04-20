@@ -14,7 +14,7 @@ Feel free to check [issues page](https://github.com/easyjitsi/docs.easyjitsi.com
 
 ## 😃 Visit our websites
 
-[Main Website](https://easyjitsi.com/) <span></span>
+[Main Website](https://easyjitsi.com/) </br>
 [Documentation](https://docs.easyjitsi.com)
 
 ## :pray: Show your support
