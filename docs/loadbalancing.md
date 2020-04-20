@@ -3,12 +3,11 @@ id: loadbalancing
 title: Load Balancing Installation
 ---
 
-
 ## Definitions:
 
-**JMS** - Your Jeets-Meet Server installed like in the Quick-Install Guide, see above.
+**JMS** - Your Jeets-Meet Server
 
-**JVB** - the additional Jitsi Videobridge Server we are going to install now
+**JVB** - The additional Jitsi Videobridge Server
 
 ## Quick Setup
 
