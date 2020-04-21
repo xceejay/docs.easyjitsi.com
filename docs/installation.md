@@ -20,8 +20,8 @@ java -version
 The output should be the following:
 
 ```bash
-openjdk version "1.8.0_171"
-OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-0ubuntu0.18.04.1-b11)
+  openjdk version "1.8.0_171"
+  OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-0ubuntu0.18.04.1-b11)
 OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)
 ```
 
@@ -36,7 +36,13 @@ We install the Nginx webserver in order to serve Jitsi(Optional)
 
 NB: **_Jitsi has a webserver that would automatically serve Jitsi when another webserver(Jetty) is not detected_**.
 
-Installation of Jitsi Meet on our Ubuntu server
+### Installation of Jitsi Meet on our Ubuntu server
+
+We ensure support is available for apt repositories via HTTPS
+
+```bash
+apt-get install apt-transport-https
+```
 
 We add the Jitsi repository to our system package sources list:
 
@@ -61,6 +67,28 @@ Generate a new certificate with Let's encrypt
 
 ```bash
 /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
+```
+
+Default deployments on systems using systemd will have low default values for maximum processes and open files. If the used bridge will expect higher number of participants the default values need to be adjusted (the default values are good for less than 100 participants).
+To update the values edit `/etc/systemd/system.conf` and make sure you have the following values:
+
+```
+DefaultLimitNOFILE=65000
+DefaultLimitNPROC=65000
+DefaultTasksMax=65000
+```
+
+To load the values and check them look [below](#systemd-details) for details.
+
+### Systemd details
+
+To reload the systemd changes on a running system execute `systemctl daemon-reload` and `service jitsi-videobridge restart`.
+To check the tasks part execute `service jitsi-videobridge status` and you should see `Tasks: XX (limit: 65000)`.
+To check the files and process part execute `` cat /proc/`cat /var/run/jitsi-videobridge/jitsi-videobridge.pid`/limits `` and you should see:
+
+```
+Max processes             65000                65000                processes
+Max open files            65000                65000                files
 ```
 
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**
