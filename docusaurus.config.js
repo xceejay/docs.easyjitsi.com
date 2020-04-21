@@ -83,12 +83,28 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+      },
+    ],
+  ],
 
-        gtag: {
-          trackingID: "UA-163579416-2",
-          // Optional fields.
-          anonymizeIP: true, // Should IPs be anonymized?
-        },
+  plugins: [
+    [
+      "@docusaurus/plugin-google-analytics",
+      {
+        /* options */
+        trackingID: "UA-164126155-1",
+        anonymizeIP: false,
+      },
+    ],
+  ],
+
+  plugins: [
+    [
+      "@docusaurus/plugin-sitemap",
+      {
+        cacheTime: 600 * 1000, // 600 sec - cache purge period
+        changefreq: "weekly",
+        priority: 0.5,
       },
     ],
   ],
