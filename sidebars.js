@@ -7,7 +7,7 @@ module.exports = {
   docs: {
     Welcome: ["welcome", "intro"],
     "Introduction To Jitsi": ["introtojitsi", "architecture", "benchmarks"],
-    "Getting Started": ["gettingstarted", "installation"],
+    "Getting Started": ["gettingstarted", "installation", "securedomain"],
     "Recording with Jibri": [
       "gettingstartedjibri",
       "installingdep",
