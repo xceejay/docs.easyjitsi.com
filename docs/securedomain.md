@@ -10,7 +10,7 @@ from anonymous domain. Here's what has to be configured:
 
 1 In Prosody:
 
-(If you have installed jitsi-meet from the Debian package, these changes should be made in /etc/prosody/conf.avail/[your-hostname].cfg.lua)
+(If you have installed jitsi-meet from the Debian package, these changes should be made in /etc/prosody/conf.avail/jitsimeet.easyjitsi.cfg.lua)
 
 a) Enable authentication on your main domain:<br/>
 
@@ -31,7 +31,7 @@ VirtualHost "guest.jitsimeet.easyjitsi.com"
 
 2 In Jitsi Meet config.js configure 'anonymousdomain':<br/>
 
-(If you have installed jitsi-meet from the Debian package, these changes should be made in /etc/jitsi/meet/[your-hostname]-config.js)
+(If you have installed jitsi-meet from the Debian package, these changes should be made in /etc/jitsi/meet/jitsimeet.easyjitsi.com-config.js)
 
 ```
 var config = {
