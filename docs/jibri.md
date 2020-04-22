@@ -54,7 +54,7 @@ We modify the file as follows;
         "room_name": "JibriBrewery",
         // Nickname for uniquely identifing the jibri. It should be unique always
         // if multiple jibris listening to same XMPP server
-        "nickname": "jibri-nickname-instance1"
+        "nickname": "jibri-nickname-instance"
       },
       // All participants in a call join a muc so they can exchange
       //  information.  Jibri can be instructed to join a special muc
