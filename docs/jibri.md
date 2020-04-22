@@ -61,7 +61,6 @@ We modify the file as follows;
       //  with credentials to give it special abilities (e.g. not being
       //  displayed to other users like a normal participant)
       "call_login": {
-        "domain": "recorder.easyjitsi.com",
         "username": "recorder",
         "password": "jibrirecorderpass"
       },
