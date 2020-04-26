@@ -7,7 +7,7 @@ This section covers the Installation of Jitsi.
 
 We then install the Java Runtime Environment since Jitsi Meet requires it to run.
 
-Want a quick installation without going through this section? Head [here](https://quickstart.easyjitsi.com)
+### Want a quick installation without going through this section? Head [here](https://quickstart.easyjitsi.com)
 
 ```bash
 apt install -y openjdk-8-jre-headless
