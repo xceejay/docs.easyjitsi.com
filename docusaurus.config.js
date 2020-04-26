@@ -7,8 +7,10 @@ module.exports = {
   organizationName: "easyjitsi", // Usually your GitHub org/user name.
   projectName: "docs.easyjitsi.com", // Usually your repo name.
   themeConfig: {
+    disableDarkMode: false,
     navbar: {
       title: "Easy Jitsi",
+
       logo: {
         alt: "Easy Jitsi",
         src: "img/logo.svg",
