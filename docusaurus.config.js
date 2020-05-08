@@ -80,7 +80,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/easyjitsi/docs.easyjitsi.com",
+          editUrl: "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
