@@ -1,0 +1,17 @@
+{
+  "id": "gettingstartedjibri",
+  "title": "Starting Out With Jibri",
+  "description": "In order to record conferences the following are required;",
+  "source": "@site/docs/gettingstartedjibri.md",
+  "permalink": "/docs/gettingstartedjibri",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/gettingstartedjibri.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Secure Domain",
+    "permalink": "/docs/securedomain"
+  },
+  "next": {
+    "title": "Installing Necessary Dependencies",
+    "permalink": "/docs/installingdep"
+  }
+}

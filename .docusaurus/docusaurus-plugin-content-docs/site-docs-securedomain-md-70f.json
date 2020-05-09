@@ -1,0 +1,17 @@
+{
+  "id": "securedomain",
+  "title": "Secure Domain",
+  "description": "It is possible to allow only authenticated users for creating new conference",
+  "source": "@site/docs/securedomain.md",
+  "permalink": "/docs/securedomain",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/securedomain.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Installation of Jitsi Meet",
+    "permalink": "/docs/installation"
+  },
+  "next": {
+    "title": "Starting Out With Jibri",
+    "permalink": "/docs/gettingstartedjibri"
+  }
+}

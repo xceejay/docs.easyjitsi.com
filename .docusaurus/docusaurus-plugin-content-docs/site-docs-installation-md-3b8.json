@@ -1,0 +1,17 @@
+{
+  "id": "installation",
+  "title": "Installation of Jitsi Meet",
+  "description": "This section covers the Installation of Jitsi.",
+  "source": "@site/docs/installation.md",
+  "permalink": "/docs/installation",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/installation.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Install Jitsi With One Line",
+    "permalink": "/docs/quickstart"
+  },
+  "next": {
+    "title": "Secure Domain",
+    "permalink": "/docs/securedomain"
+  }
+}

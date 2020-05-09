@@ -1,0 +1,17 @@
+{
+  "id": "loadbalancing",
+  "title": "Load Balancing Installation",
+  "description": "## Definitions:",
+  "source": "@site/docs/loadbalancing.md",
+  "permalink": "/docs/loadbalancing",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/loadbalancing.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Scaling Jitsi",
+    "permalink": "/docs/scaling"
+  },
+  "next": {
+    "title": "Extending Jitsi",
+    "permalink": "/docs/extensions"
+  }
+}

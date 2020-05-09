@@ -1,0 +1,17 @@
+{
+  "id": "extensions",
+  "title": "Extending Jitsi",
+  "description": "## Jigasi",
+  "source": "@site/docs/extensions.md",
+  "permalink": "/docs/extensions",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/extensions.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Load Balancing Installation",
+    "permalink": "/docs/loadbalancing"
+  },
+  "next": {
+    "title": "Tips For Deploying Jitsi",
+    "permalink": "/docs/tips"
+  }
+}

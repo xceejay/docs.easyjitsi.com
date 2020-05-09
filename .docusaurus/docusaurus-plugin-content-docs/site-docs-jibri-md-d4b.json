@@ -1,0 +1,17 @@
+{
+  "id": "jibri",
+  "title": "Configuration of Jibri For Recording",
+  "description": "NB: **This section assumes we have logged into our ssh server with the FQDN recorder.easyjitsi.com**",
+  "source": "@site/docs/jibri.md",
+  "permalink": "/docs/jibri",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/jibri.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Configuration of Jitsi For Recording",
+    "permalink": "/docs/config"
+  },
+  "next": {
+    "title": "Customizing The Jitsi Meet UI",
+    "permalink": "/docs/jitsiui"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "config",
+  "title": "Configuration of Jitsi For Recording",
+  "description": "NB: **This section assumes we have logged into our Ubuntu server with the FQDN jitsimeet.easyjitsi.com**",
+  "source": "@site/docs/config.md",
+  "permalink": "/docs/config",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/config.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Installing Necessary Dependencies",
+    "permalink": "/docs/installingdep"
+  },
+  "next": {
+    "title": "Configuration of Jibri For Recording",
+    "permalink": "/docs/jibri"
+  }
+}

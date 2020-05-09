@@ -1,0 +1,17 @@
+{
+  "id": "architecture",
+  "title": "Architecture of Jitsi",
+  "description": "The overall Jitsi architecture has a great level of complexity and abstract. We can simply it with first step of splitting the functions of the central jitsi-meet instance (with nginx, prosody and jicofo) and videobridges.",
+  "source": "@site/docs/architecture.md",
+  "permalink": "/docs/architecture",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/architecture.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Understanding Jitsi",
+    "permalink": "/docs/introtojitsi"
+  },
+  "next": {
+    "title": "Benchmarks",
+    "permalink": "/docs/benchmarks"
+  }
+}

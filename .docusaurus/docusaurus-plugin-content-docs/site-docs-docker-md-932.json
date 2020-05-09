@@ -1,0 +1,17 @@
+{
+  "id": "docker",
+  "title": "Jitsi Meets Docker",
+  "description": "[<img src=\"/img/dockerjitsi.png\" ></img>]()",
+  "source": "@site/docs/docker.md",
+  "permalink": "/docs/docker",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/docker.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Customizing The Jitsi Meet UI",
+    "permalink": "/docs/jitsiui"
+  },
+  "next": {
+    "title": "Integrating the Jitsi Iframe Api",
+    "permalink": "/docs/iframeapi"
+  }
+}

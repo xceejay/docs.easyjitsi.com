@@ -1,0 +1,17 @@
+{
+  "id": "scaling",
+  "title": "Scaling Jitsi",
+  "description": "# Scalable Jitsi installation",
+  "source": "@site/docs/scaling.md",
+  "permalink": "/docs/scaling",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/scaling.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Integrating the Jitsi Iframe Api",
+    "permalink": "/docs/iframeapi"
+  },
+  "next": {
+    "title": "Load Balancing Installation",
+    "permalink": "/docs/loadbalancing"
+  }
+}
