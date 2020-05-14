@@ -6,7 +6,6 @@ The Only Documentation you'll Ever Need to Deploy Jitsi
 <img src=https://img.shields.io/badge/build-passing-brightgreen></img>
 <img src=https://img.shields.io/badge/Star-Star%20our%20Project%F0%9F%8C%9F-yellow></img>
 
-
 ## :handshake: Contributing
 
 We would love to have your help. Use this [Guide](https://github.com/easyjitsi/docs.easyjitsi.com/blob/master/CONTRIBUTING.md) if you don't know how to contribute.
