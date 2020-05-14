@@ -4,11 +4,11 @@
   "description": "# Scalable Jitsi installation",
   "source": "@site/docs/scaling.md",
   "permalink": "/docs/scaling",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/scaling.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/scaling.md",
   "sidebar": "docs",
   "previous": {
-    "title": "Integrating the Jitsi Iframe Api",
-    "permalink": "/docs/iframeapi"
+    "title": "Using the iframe API with React",
+    "permalink": "/docs/jitsireact"
   },
   "next": {
     "title": "Load Balancing Installation",

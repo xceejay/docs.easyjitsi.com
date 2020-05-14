@@ -4,7 +4,7 @@
   "description": "**NB:We need a separate server with the FQDN recorder.easyjitsi.com in order to record conferences**",
   "source": "@site/docs/installingdep.md",
   "permalink": "/docs/installingdep",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/installingdep.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/installingdep.md",
   "sidebar": "docs",
   "previous": {
     "title": "Starting Out With Jibri",

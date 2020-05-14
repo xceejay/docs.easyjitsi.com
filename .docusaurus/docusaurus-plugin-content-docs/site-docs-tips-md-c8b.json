@@ -4,7 +4,7 @@
   "description": "## Server Specification",
   "source": "@site/docs/tips.md",
   "permalink": "/docs/tips",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/tips.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/tips.md",
   "sidebar": "docs",
   "previous": {
     "title": "Extending Jitsi",

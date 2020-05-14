@@ -87,11 +87,11 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/home/joel/Desktop/programming/ddc/easyjitsi/docs.easyjitsi.com/sidebars.js",
-          "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com"
+          "sidebarPath": "/home/code/projects/docs.easyjitsi.com/sidebars.js",
+          "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master"
         },
         "theme": {
-          "customCss": "/home/joel/Desktop/programming/ddc/easyjitsi/docs.easyjitsi.com/src/css/custom.css"
+          "customCss": "/home/code/projects/docs.easyjitsi.com/src/css/custom.css"
         }
       }
     ]

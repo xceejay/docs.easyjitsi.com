@@ -4,7 +4,7 @@
   "description": "<head>  <meta name=\"description\" content=\"The Only Website You Will need to deploy Jitsi\"></meta></head>",
   "source": "@site/docs/welcome.md",
   "permalink": "/docs/welcome",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/welcome.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/welcome.md",
   "sidebar": "docs",
   "next": {
     "title": "Introduction To Easy Jitsi",

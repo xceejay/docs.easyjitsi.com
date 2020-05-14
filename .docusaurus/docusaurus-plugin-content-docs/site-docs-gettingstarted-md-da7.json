@@ -4,7 +4,7 @@
   "description": "In this section [Easy Jitsi](https://easyjitsi.com) will guide you through the process of setting up an Ubuntu 18.04 LTS server for Jitsi Meet.",
   "source": "@site/docs/gettingstarted.md",
   "permalink": "/docs/gettingstarted",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/gettingstarted.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/gettingstarted.md",
   "sidebar": "docs",
   "previous": {
     "title": "Benchmarks",

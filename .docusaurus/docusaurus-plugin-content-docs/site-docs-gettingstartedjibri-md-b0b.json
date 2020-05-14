@@ -4,7 +4,7 @@
   "description": "In order to record conferences the following are required;",
   "source": "@site/docs/gettingstartedjibri.md",
   "permalink": "/docs/gettingstartedjibri",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/gettingstartedjibri.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/gettingstartedjibri.md",
   "sidebar": "docs",
   "previous": {
     "title": "Secure Domain",

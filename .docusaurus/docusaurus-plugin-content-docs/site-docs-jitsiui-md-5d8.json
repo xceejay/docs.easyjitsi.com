@@ -4,7 +4,7 @@
   "description": "NB **This section assumes we have logged into our Ubuntu server with the FQDN jitsimeet.easyjitsi.com**",
   "source": "@site/docs/jitsiui.md",
   "permalink": "/docs/jitsiui",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/jitsiui.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/jitsiui.md",
   "sidebar": "docs",
   "previous": {
     "title": "Configuration of Jibri For Recording",

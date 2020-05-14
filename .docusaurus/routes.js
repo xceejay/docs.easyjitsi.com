@@ -154,6 +154,12 @@ export default [
   
 },
 {
+  path: '/docs/jitsireact',
+  component: ComponentCreator('/docs/jitsireact'),
+  exact: true,
+  
+},
+{
   path: '/docs/jitsiui',
   component: ComponentCreator('/docs/jitsiui'),
   exact: true,

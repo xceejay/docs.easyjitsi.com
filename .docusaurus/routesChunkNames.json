@@ -1,169 +1,173 @@
 {
   "/": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99"
+    "component": "c4f5d8e4"
   },
   "/blog": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "component": "a6aa9e1f",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       },
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blogbbb-5f9"
+    "metadata": "bbb4ffb5"
   },
   "/blog/hello-world": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---blog-hello-worldd-61-086"
+    "component": "ccc49370",
+    "content": "d610846f"
   },
   "/blog/hola": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---blog-holabdd-150"
+    "component": "ccc49370",
+    "content": "bdd709f1"
   },
   "/blog/tags": {
-    "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "tags": "tags---blog-tags-8-be-13d"
+    "component": "01a85c17",
+    "tags": "8be5b89e"
   },
   "/blog/tags/docusaurus": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       },
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blog-tags-docusaurus-6-ca-f43"
+    "metadata": "6ca375e2"
   },
   "/blog/tags/facebook": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---blog-tags-facebookeec-618"
+    "metadata": "eec15bdb"
   },
   "/blog/tags/hello": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       }
     ],
-    "metadata": "metadata---blog-tags-hello-3-a-6-b36"
+    "metadata": "3a6eb64e"
   },
   "/blog/tags/hola": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blog-tags-hola-31-d-e2f"
+    "metadata": "31d49d87"
   },
   "/blog/welcome": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---blog-welcome-286-e55"
+    "component": "ccc49370",
+    "content": "2868cdab"
   },
   "/docs/:route": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "docsMetadata": "docsMetadata---docs-route-20-a-f24"
+    "component": "1be78505",
+    "docsMetadata": "20ac7829"
   },
   "/docs/architecture": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-architecture-528-86f"
+    "component": "17896441",
+    "content": "5281b7a2"
   },
   "/docs/benchmarks": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-benchmarkscaf-885"
+    "component": "17896441",
+    "content": "caf39a59"
   },
   "/docs/config": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-config-922-262"
+    "component": "17896441",
+    "content": "9225b3a9"
   },
   "/docs/docker": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-docker-932-574"
+    "component": "17896441",
+    "content": "93234bd6"
   },
   "/docs/extensions": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-extensionse-31-62e"
+    "component": "17896441",
+    "content": "e318e24b"
   },
   "/docs/gettingstarted": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-gettingstartedda-7-fe5"
+    "component": "17896441",
+    "content": "da7e18d7"
   },
   "/docs/gettingstartedjibri": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-gettingstartedjibrib-0-b-6ba"
+    "component": "17896441",
+    "content": "b0bb190a"
   },
   "/docs/help": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-help-494-50e"
+    "component": "17896441",
+    "content": "49491008"
   },
   "/docs/iframeapi": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-iframeapi-79-e-940"
+    "component": "17896441",
+    "content": "79e9f006"
   },
   "/docs/installation": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-installation-3-b-8-7c6"
+    "component": "17896441",
+    "content": "3b8c55ea"
   },
   "/docs/installingdep": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-installingdep-42-f-e85"
+    "component": "17896441",
+    "content": "42fd6560"
   },
   "/docs/intro": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "component": "17896441",
+    "content": "0e384e19"
   },
   "/docs/introtojitsi": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-introtojitsi-2-fc-bea"
+    "component": "17896441",
+    "content": "2fc951a1"
   },
   "/docs/jibri": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-jibrid-4-b-9ca"
+    "component": "17896441",
+    "content": "d4bb5841"
+  },
+  "/docs/jitsireact": {
+    "component": "17896441",
+    "content": "c29a2a6e"
   },
   "/docs/jitsiui": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-jitsiui-5-d-8-ed2"
+    "component": "17896441",
+    "content": "5d8b5684"
   },
   "/docs/loadbalancing": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-loadbalancingaef-f62"
+    "component": "17896441",
+    "content": "aefd9bd1"
   },
   "/docs/quickstart": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-quickstart-807-6cd"
+    "component": "17896441",
+    "content": "8070e160"
   },
   "/docs/scaling": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-scaling-814-154"
+    "component": "17896441",
+    "content": "81482700"
   },
   "/docs/securedomain": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-securedomain-70-f-2eb"
+    "component": "17896441",
+    "content": "70f0eae8"
   },
   "/docs/tips": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tipsc-8-b-497"
+    "component": "17896441",
+    "content": "c8b3d7d6"
   },
   "/docs/welcome": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-welcomeebf-790"
+    "component": "17896441",
+    "content": "ebfee794"
   }
 }

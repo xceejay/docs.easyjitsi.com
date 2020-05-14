@@ -4,7 +4,7 @@
   "description": "NB: **This section assumes we have logged into our ssh server with the FQDN recorder.easyjitsi.com**",
   "source": "@site/docs/jibri.md",
   "permalink": "/docs/jibri",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/jibri.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/jibri.md",
   "sidebar": "docs",
   "previous": {
     "title": "Configuration of Jitsi For Recording",

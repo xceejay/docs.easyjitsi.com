@@ -4,7 +4,7 @@
   "description": "## What is Jitsi?",
   "source": "@site/docs/introtojitsi.md",
   "permalink": "/docs/introtojitsi",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/introtojitsi.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/introtojitsi.md",
   "sidebar": "docs",
   "previous": {
     "title": "Introduction To Easy Jitsi",

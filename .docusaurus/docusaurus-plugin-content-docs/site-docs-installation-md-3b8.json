@@ -4,7 +4,7 @@
   "description": "This section covers the Installation of Jitsi.",
   "source": "@site/docs/installation.md",
   "permalink": "/docs/installation",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/installation.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/installation.md",
   "sidebar": "docs",
   "previous": {
     "title": "Install Jitsi With One Line",

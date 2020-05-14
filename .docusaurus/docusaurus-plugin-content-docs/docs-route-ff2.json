@@ -120,6 +120,11 @@
             "type": "link",
             "label": "Integrating the Jitsi Iframe Api",
             "href": "/docs/iframeapi"
+          },
+          {
+            "type": "link",
+            "label": "Using the iframe API with React",
+            "href": "/docs/jitsireact"
           }
         ]
       },
@@ -165,6 +170,7 @@
     "/docs/intro": "docs",
     "/docs/introtojitsi": "docs",
     "/docs/jibri": "docs",
+    "/docs/jitsireact": "docs",
     "/docs/jitsiui": "docs",
     "/docs/loadbalancing": "docs",
     "/docs/quickstart": "docs",
