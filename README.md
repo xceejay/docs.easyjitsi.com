@@ -1,3 +1,7 @@
+<h1 align="center">
+    <img alt='easyjitsi' src="https://easyjitsi.com/img/logo.png" width="90%" />
+</h1>
+
 # Easy Jitsi
 
 The Only Documentation you'll Ever Need to Deploy Jitsi
