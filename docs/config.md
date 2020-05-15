@@ -3,7 +3,7 @@ id: config
 title: Configuration of Jitsi For Recording
 ---
 
-NB: **This section assumes we have logged into our Ubuntu server with the FQDN jitsimeet.easyjitsi.com**
+NB: **This section assumes we have logged into our Ubuntu server**
 
 We need to configure Jitsi in order for it to find & allow Jibri to record conferences
 
