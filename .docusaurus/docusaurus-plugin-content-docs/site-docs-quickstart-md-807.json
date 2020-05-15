@@ -4,7 +4,7 @@
   "description": "Don't Want To Manually Go Through The Full Install Process? Guess What? We Could do that for you",
   "source": "@site/docs/quickstart.md",
   "permalink": "/docs/quickstart",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/quickstart.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/quickstart.md",
   "sidebar": "docs",
   "previous": {
     "title": "Starting Out",

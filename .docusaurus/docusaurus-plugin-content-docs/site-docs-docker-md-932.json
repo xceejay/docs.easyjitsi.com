@@ -4,7 +4,7 @@
   "description": "[<img src=\"/img/dockerjitsi.png\" ></img>]()",
   "source": "@site/docs/docker.md",
   "permalink": "/docs/docker",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/docker.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/docker.md",
   "sidebar": "docs",
   "previous": {
     "title": "Customizing The Jitsi Meet UI",

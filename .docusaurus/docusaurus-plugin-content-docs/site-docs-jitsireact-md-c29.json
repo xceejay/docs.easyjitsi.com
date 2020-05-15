@@ -1,0 +1,17 @@
+{
+  "id": "jitsireact",
+  "title": "Using the iframe API with React",
+  "description": "Another way to quickly build on top of the jitsi embedded client is through using the `react-jutsu` library which is a component wrapper and custom react hook on top of it",
+  "source": "@site/docs/jitsireact.md",
+  "permalink": "/docs/jitsireact",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/jitsireact.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Integrating the Jitsi Iframe Api",
+    "permalink": "/docs/iframeapi"
+  },
+  "next": {
+    "title": "Scaling Jitsi",
+    "permalink": "/docs/scaling"
+  }
+}

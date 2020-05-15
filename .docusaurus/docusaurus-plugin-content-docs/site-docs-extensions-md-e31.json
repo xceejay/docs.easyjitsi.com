@@ -4,7 +4,7 @@
   "description": "## Jigasi",
   "source": "@site/docs/extensions.md",
   "permalink": "/docs/extensions",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/extensions.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/extensions.md",
   "sidebar": "docs",
   "previous": {
     "title": "Load Balancing Installation",

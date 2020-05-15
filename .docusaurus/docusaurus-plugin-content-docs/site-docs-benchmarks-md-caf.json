@@ -4,7 +4,7 @@
   "description": "[<img src=\"/img/bench.png\"></img>]()",
   "source": "@site/docs/benchmarks.md",
   "permalink": "/docs/benchmarks",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/benchmarks.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/benchmarks.md",
   "sidebar": "docs",
   "previous": {
     "title": "Architecture of Jitsi",

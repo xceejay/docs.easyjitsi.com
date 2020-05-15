@@ -4,14 +4,14 @@
   "description": "# Jitsi Meet API",
   "source": "@site/docs/iframeapi.md",
   "permalink": "/docs/iframeapi",
-  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/docs/iframeapi.md",
+  "editUrl": "https://github.com/easyjitsi/docs.easyjitsi.com/edit/master/docs/iframeapi.md",
   "sidebar": "docs",
   "previous": {
     "title": "Jitsi Meets Docker",
     "permalink": "/docs/docker"
   },
   "next": {
-    "title": "Scaling Jitsi",
-    "permalink": "/docs/scaling"
+    "title": "Using the iframe API with React",
+    "permalink": "/docs/jitsireact"
   }
 }
