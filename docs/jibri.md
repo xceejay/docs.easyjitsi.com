@@ -106,4 +106,15 @@ We modify the file as follows;
 - password: Password for authorization
 - room_jid_domain_string_to_strip_from_start: Prefix of the url which should be stripped to form a call url correctly. Eg. conference.
 
+## Other Option
+
+To save time and money on recording infrastructure you can use this service: [**jibrisondemand.com**](https://jibrisondemand.com)
+
+They offer services such as :
+
+- Setting time limit for a recorder to save costs
+- Fully configured VPS's with jibri
+- Monitoring of your jibri servers
+- Etc.
+
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**

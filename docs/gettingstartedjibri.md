@@ -25,15 +25,4 @@ On our local system, we login into our Ubuntu server
 ssh root@recorder.easyjitsi.com -p 22
 ```
 
-## Other Option
-
-To save time and money on recording infrastructure you can use this service [**jibrisondemand.com**](https://jibrisondemand.com)
-
-They offer services such as :
-
-- Setting time limit for a recorder to save costs
-- Fully configured VPS's with jibri
-- Monitoring of your jibri servers
-- Etc.
-
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**
