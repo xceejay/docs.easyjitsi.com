@@ -27,7 +27,7 @@ ssh root@recorder.easyjitsi.com -p 22
 
 ## Other Option
 
-To save time and money on recording infrastructure you can use this service **jibrisondemand.com**
+To save time and money on recording infrastructure you can use this service [**jibrisondemand.com**](https://jibrisondemand.com)
 
 They offer services such as :
 
