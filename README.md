@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt='easyjitsi' src="https://easyjitsi.com/img/logo.png" width="90%" />
+    <img alt='easyjitsi' src="https://easyjitsi.com/img/logo.png" width="50%" />
 </h1>
 
 # Easy Jitsi
