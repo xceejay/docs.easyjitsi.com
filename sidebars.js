@@ -7,8 +7,14 @@ module.exports = {
   docs: {
     Welcome: ["welcome", "intro"],
     "Introduction To Jitsi": ["introtojitsi", "architecture", "benchmarks"],
-    "Getting Started": ["gettingstarted", "installation", "securedomain"],
+    "Getting Started": [
+      "gettingstarted",
+      "quickstart",
+      "installation",
+      "securedomain",
+    ],
     "Recording with Jibri": [
+      "jibrisondemand",
       "gettingstartedjibri",
       "installingdep",
       "config",
@@ -16,7 +22,7 @@ module.exports = {
     ],
     "Customizing the UI": ["jitsiui"],
     "Jitsi & Docker": ["docker"],
-    "Integrating Jitsi with Your Application": ["iframeapi"],
+    "Integrating Jitsi with Your Application": ["iframeapi", "jitsireact"],
     Deployment: ["scaling", "loadbalancing", "extensions", "tips"],
   },
 };

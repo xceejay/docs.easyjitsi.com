@@ -3,8 +3,6 @@ id: installingdep
 title: Installing Necessary Dependencies
 ---
 
-**NB:We need a separate server with the FQDN recorder.easyjitsi.com in order to record conferences**
-
 In order to record Jitsi Video Conferences, we do the following:
 
 Install Extra Linux Kernel Modules That Jibri Dependencies On
@@ -106,8 +104,4 @@ Add Jibri To Necessary Groups
 sudo usermod -aG adm,audio,video,plugdev jibri
 ```
 
-
-
-
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**
-
