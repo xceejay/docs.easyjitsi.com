@@ -3,6 +3,8 @@ id: config
 title: Configuration of Jitsi For Recording
 ---
 
+## Quick Recoring
+
 NB: **This section assumes we have logged into our Ubuntu server**
 
 We need to configure Jitsi in order for it to find & allow Jibri to record conferences
@@ -94,4 +96,3 @@ ufw allow 5369/tcp
 ```
 
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**
-
