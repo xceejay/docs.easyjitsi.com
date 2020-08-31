@@ -1,6 +1,6 @@
 ---
 id: jibrisondemand
-title: Enable Recording And Live Streaming Quickly
+title: Enable Scalable Recording And Live Streaming Quickly
 ---
 
 Don't Want To Manually Go Through The Full Manual Install Process? Guess What? There's an easier way

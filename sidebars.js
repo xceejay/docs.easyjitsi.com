@@ -13,7 +13,7 @@ module.exports = {
       "installation",
       "securedomain",
     ],
-    "Recording with Jibri": [
+    "Recording And Live Streaming with Jibri": [
       "jibrisondemand",
       "gettingstartedjibri",
       "installingdep",

@@ -81,4 +81,25 @@ We modify the file as follows;
 
 ```
 
+## Description of Fields
+
+- xmpp_server_hosts: The domain where stats and logs are stored etc. Eg. jitsi.easyjitsi.com
+- xmpp_domain: The domain of the Xmpp server(Prosody) being connecting to. Eg. jitsi.easyjitsi.com
+- control_login: Specifies credentials and authorization details Jibri will use to log into the Xmpp Server(Prosody)
+
+- domain: The domain used for logging in.
+- username: Username used for logging in.
+- password: Password used for logging in.
+
+- control_muc: Specifies the details about the Control Muc being joined on the Xmpp server as a means of annoucing its availability so it can record.
+- domain: The Control Muc domain.
+- room_name: The Name of the Muc room.
+- nickname: Nick name for identification in the Muc Room. This should be unique if we want to setup multiple jibris listening to same XMPP server.
+- call_login: This is displayed to other users as a normal participant of a conference
+
+- domain: The domain of the jibri server
+- username: Username displayed to the users
+- password: Password for authorization
+- room_jid_domain_string_to_strip_from_start: Prefix of the url which should be stripped to form a call url correctly. Eg. conference.
+
 **_If you encounted any errors or you found it difficult while following these steps, you can head [here](https://docs.easyjitsi.com/docs/help) to seek help from us._**
