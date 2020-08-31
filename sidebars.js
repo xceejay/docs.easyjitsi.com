@@ -19,6 +19,8 @@ module.exports = {
       "installingdep",
       "config",
       "jibri",
+      "newjibri",
+      "confignewjibri",
     ],
     "Customizing the UI": ["jitsiui"],
     "Jitsi & Docker": ["docker"],

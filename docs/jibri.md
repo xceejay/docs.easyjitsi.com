@@ -1,9 +1,9 @@
 ---
 id: jibri
-title: Configuration of Jibri For Recording
+title: Configuration of Jibri For Recording And Live Streaming
 ---
 
-NB: **This section assumes we have logged into our recorder's server via ssh**
+NB: **This section assumes we have logged into our jibri server via ssh**
 
 We also need to configure Jitsi in order for it to find & allow Jibri to record conferences
 
