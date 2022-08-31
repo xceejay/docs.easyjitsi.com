@@ -18,7 +18,7 @@ Feel free to check [issues page](https://github.com/easyjitsi/docs.easyjitsi.com
 
 ## 😃 Visit our websites
 
-[Main Website](https://easyjitsi.com/) </br>
+[Main Website](https://easyjitsi.com/) </br> (INACTIVE⚠️)
 [Documentation](https://docs.easyjitsi.com)
 
 ## :pray: Show your support
@@ -27,6 +27,6 @@ Give a :star: if this project helped you in any way!
 
 ## :scroll: License
 
-Copyright © 2020 [EasyJitsi](https://github.com/easyjitsi).
+<!--Copyright © 2020 [EasyJitsi](https://github.com/easyjitsi).-->
 
 This project is licensed under [Apache 2.0](https://github.com/easyjitsi/docs.easyjitsi.com/blob/master/LICENSE)
